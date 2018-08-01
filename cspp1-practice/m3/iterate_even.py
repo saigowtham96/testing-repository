@@ -1,5 +1,3 @@
 m=2
-while(m<=10):
-      print(m)
-      m=m+2
-print("Good bye")
+for m in range (2,12,2):
+    print(m)
