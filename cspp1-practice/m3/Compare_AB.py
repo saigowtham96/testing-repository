@@ -4,7 +4,7 @@ n=input("Enter the value of b")
 try:
     VarA =int(a)
     VarB =int(b)
-    if Var A< Var B:
+    if VarA< VarB:
         print("smaller")
     elif VarA == VarB:
         print("equal")
