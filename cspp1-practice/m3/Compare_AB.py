@@ -2,11 +2,11 @@ m=input("Enter the value of a")
 n=input("Enter the value of b")
 
 try:
-    Var A =int(a)
-    Var B =(b)
+    VarA =int(a)
+    VarB =int(b)
     if Var A< Var B:
         print("smaller")
-    elif Var A == Var B:
+    elif VarA == VarB:
         print("equal")
     else:
         print("bigger")
