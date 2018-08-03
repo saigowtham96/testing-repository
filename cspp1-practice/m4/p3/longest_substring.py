@@ -1,19 +1,19 @@
-s=input()
-s=s+" "
-z=0
-len1=-1
-while z<(len(s)-2):
-    j=z
-    while s[j]<=s[j+1] and (j)<(len(s)-2):
-        j=j+1
-    len2=j-z
-    if len2>len1:
-        len1=len2
-        i=int(z)
-        l=int(j)
-    z=j+1
+S = input()
+S = S + " "
+Z = 0
+LEN1 = -1
+while Z < (len(S) - 2):
+    I = Z
+    while S[I] <= S[I+1] and (I) < (len(S)-2):
+        I = I + 1
+    LEN2 = I - Z
+    if LEN2 > LEN1:
+        LEN1 = LEN2
+        K = int(Z)
+        L = int(I)
+    Z = I + 1
 S1 = ""
-while i<=l:
-    S1 = S1 + S[i]
-    i=i+1
+while K <= L:
+    S1 = S1 + S[K]
+    K = K + 1
 print(S1)
