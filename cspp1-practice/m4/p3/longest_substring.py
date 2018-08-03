@@ -12,10 +12,8 @@ while z<(len(s)-2):
         i=int(z)
         l=int(j)
     z=j+1
-t1=i
-t2=l
-
-print(i,l)
+S1 = ""
 while i<=l:
-    print(s[i])
+    S1 = S1 + S[i]
     i=i+1
+print(S1)
