@@ -1,9 +1,13 @@
-# Write a python program to find the square root of the given number 
-# using approximation method
+"""
+square root approximation
+"""
+M = int(input())
+EP = 0.1
+A = 0
+A = int(A)
+while (M - (A*A) > EP) and A < M:
+    if M - (A*A) > EP:
+        A = A+EP
+print(A)
 
-def main():
-	s = raw_input()
-	#your code here
 
-if __name__== "__main__":
-	main()
