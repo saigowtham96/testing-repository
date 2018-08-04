@@ -2,12 +2,12 @@
 Given a  number int_input, find the product of all the digits
 
 '''
-int_input= int(input())
+int_input = int(input())
 I = 1
-while I<int_input:
-   A = int_input%10
+while I<abs(NUM):      
+   A = NUM%10
    I = A*I
-   int_input = int_input//10
+   NUM = NUM//10
    
-print(I)    
+print(abs(I))    
 
