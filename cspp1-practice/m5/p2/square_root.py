@@ -9,5 +9,3 @@ while (M - (A*A) > EP) and A < M:
     if M - (A*A) > EP:
         A = A+EP
 print(A)
-
-
