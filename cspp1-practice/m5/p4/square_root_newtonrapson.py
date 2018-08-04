@@ -1,11 +1,9 @@
 """
-square root approximation
+Newton Raphson Method
 """
-N = int(input())
-EP = 0.1
-A = 0.0
-A = int(A)
-while (N - (A*A) > EP) and A < N:
-    if N - (A*A) > EP:
-        A = A+EP
-print(A)
+E = 0.01
+A = int(input())
+G = A/2.0
+while abs(G*G - A) >= E:
+    G = G - (((G**2) - A)/(2*G))
+print(G)
