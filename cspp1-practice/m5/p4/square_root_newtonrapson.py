@@ -2,7 +2,7 @@
 square root approximation
 """
 N = int(input())
-EP = 0.1
+EP = 0.01
 A = 0
 A = int(A)
 while (N - (A*A) > EP) and A < N:
