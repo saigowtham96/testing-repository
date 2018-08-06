@@ -15,7 +15,8 @@ while NUM >= 1:
 
 if temp < 0:
     I = I * -1
-elif temp == 0:
+
+if temp == 0:
 	print(temp) 
 else:
 	print(I)    
