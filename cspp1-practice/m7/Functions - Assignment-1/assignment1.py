@@ -76,7 +76,7 @@ if __name__== "__main__":
 
 
 def payingDebtOffInAYear(balance, annualInterestRate, monthlyPaymentRate):
-    I=1
+    I = 1
     MPR,MIMP,UB=0,0,0
     UPDB = balance
     while I<=12:
