@@ -2,8 +2,8 @@
 Given a  number int_input, find the product of all the digits
 
 '''
-# int_input = int(input())
-NUM = -12345
+NUM = int(input())
+# NUM = -12345
 temp = NUM
 I = 1
 if NUM < 0:
