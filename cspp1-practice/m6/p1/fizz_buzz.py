@@ -9,11 +9,11 @@ n = int(input())
 i=1
 for i in range(1,n+1,1):
     if(i%3==0 and i%5==0):
-        print("fizz")
-        print("buzz")
+        print("Fizz")
+        print("Buzz")
        # break
     elif(i%3==0):
-        print("fizz")
+        print("Fizz")
         # break
     elif(i%5==0):
         print("Buzz")
