@@ -5,7 +5,7 @@
 
 
 def factorial(N_l):
-    """defining pylint"""
+    'defining pylint'
     if N_l <= 1:
         return 1
     return N_l*factorial(N_l-1)
