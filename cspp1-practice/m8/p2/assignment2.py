@@ -11,9 +11,9 @@ def sum_of_digits(n):
     returns: a positive integer, the sum of digits of n.
     '''
     # Your code here
-    if (n == 0):
+    if n == 0:
        return 0
-    return int(n % 10 + sum_of_digits(n / 10))
+    return int(n % 10 + sum_of_digits(n / /10))
 
 
 
