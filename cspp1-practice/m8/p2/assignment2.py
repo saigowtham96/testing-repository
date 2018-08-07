@@ -11,6 +11,9 @@ def sum_of_digits(num_var):
        return 0 
     return int(num_var % 10 + sum_of_digits(num_var//10))
 def main():
+    '''
+    main
+    '''
     a = input()
     print(sum_of_digits(int(a)))
 
