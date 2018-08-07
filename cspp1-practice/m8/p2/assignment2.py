@@ -13,7 +13,7 @@ def sum_of_digits(n):
     # Your code here
     if n == 0:
        return 0
-    if n! == 0:   
+    else:   
        return int(n % 10 + sum_of_digits(n / /10))
 
 
