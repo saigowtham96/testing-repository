@@ -12,9 +12,8 @@ def sum_of_digits(num_var):
     '''
     # Your code here
     if num_var == 0:
-       return 0
-    else:   
-       return int(num_var % 10 + sum_of_digits(num_var//10))
+       return 0 
+    return int(num_var % 10 + sum_of_digits(num_var//10))
 def main():
     a = input()
     print(sum_of_digits(int(a)))  
