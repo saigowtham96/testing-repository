@@ -1,20 +1,21 @@
 # Exercise: Assignment-1
-# Write a Python function, factorial(n), that takes in one number and returns the factorial of given number.
+"""
+fact
+"""
+def factorial(var_n):
+    '''
+    n is positive Integer
 
-# This function takes in one number and returns one number.
-
-
-def factorial(N_l):
-    'defining pylint'
-    if N_l <= 1:
+    returns: a positive integer, the factorial of n
+    '''
+    if var_n in [0, 1]:
         return 1
-    return N_l*factorial(N_l-1)
-    
-
-
+    return var_n * factorial(var_n-1)
 def main():
-    a = input()
-    print(factorial(int(a)))    
-
-if __name__== "__main__":
+    """
+    main
+    """
+    var_a = int(input())
+    print(factorial(int(var_a)))
+if __name__ == "__main__":
     main()
