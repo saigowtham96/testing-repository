@@ -4,17 +4,17 @@
 # This function takes in one number and returns one number.
 
 
-def sum_of_digits(n):
+def sum_of_digits(num_var):
     '''
     n is positive Integer
 
     returns: a positive integer, the sum of digits of n.
     '''
     # Your code here
-    if n == 0:
+    if num_var == 0:
        return 0
     else:   
-       return int(n % 10 + sum_of_digits(n // 10))
+       return int(n % 10 + sum_of_digits(num_var//10))
 
 
 
