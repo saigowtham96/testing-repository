@@ -77,7 +77,7 @@ if __name__== "__main__":
 
 def payingDebtOffInAYear(balance, annualInterestRate, monthlyPaymentRate):
     I = 1
-    MPR,MIMP,UB=0,0,0
+    MPR, MIMP, UB=0, 0, 0
     UPDB = balance
     while I<=12:
         MPR = (annualInterestRate)/12.0
@@ -85,7 +85,7 @@ def payingDebtOffInAYear(balance, annualInterestRate, monthlyPaymentRate):
         UB = UPDB-MIMP
         UPDB = UB+(MPR*UB)
         I = I + 1
-    UPDB = round(UPDB,2)
+    UPDB = round(UPDB, 2)
     print("Remaining balance: "+str(UPDB))
     return 1
 
@@ -93,7 +93,7 @@ def main():
     data = input()
     data = data.split(' ')
     data = list(map(float, data))
-    payingDebtOffInAYear(data[0],data[1],data[2])
+    payingDebtOffInAYear(data[0], data[1], data[2])
 
 if __name__== "__main__":
     main()
