@@ -1,22 +1,20 @@
 # Exercise: Assignment-2
 """sum"""
-def sum_of_digits(num_var):
+def sumofdigits(num_num):
     '''
     n is positive Integer
 
     returns: a positive integer, the sum of digits of n.
     '''
-    # Your code here
-    if num_var == 0:
-       return 0 
-    return int(num_var % 10 + sum_of_digits(num_var//10))
+    if num_num <= 0:
+        return 0
+    num_sum = num_num % 10
+    return num_sum + sumofdigits(num_num//10)
 def main():
-    '''
+    """
     main
-    '''
-    a = input()
-    print(sum_of_digits(int(a)))
-
+    """
+    num_a = input()
+    print(sumofdigits(int(num_a)))
 if __name__ == "__main__":
     main()
-
