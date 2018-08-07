@@ -14,7 +14,7 @@ def sum_of_digits(num_var):
     if num_var == 0:
        return 0
     else:   
-       return int(n % 10 + sum_of_digits(num_var//10))
+       return int(n % 10 + sum_of_digits(num_var // 10))
 
 
 
