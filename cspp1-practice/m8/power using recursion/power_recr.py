@@ -22,7 +22,7 @@ def recurPower(base, exp):
     
 
 def main():
-    data = input()
+    data = input() 
     data = data.split(",")
     print(recurPower(float(data[0]),int(data[1])))   
 
