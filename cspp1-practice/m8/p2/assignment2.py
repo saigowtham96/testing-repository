@@ -17,6 +17,6 @@ def main():
     a = input()
     print(sum_of_digits(int(a)))
 
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
 
