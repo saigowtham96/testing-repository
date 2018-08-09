@@ -15,7 +15,7 @@ def get_available_letters(letters_guessed):
       yet been guessed.
     '''
     remain = []
-    for i in Alph_bet:
+    for i in Alph_Bet:
         if i not in letters_guessed:
             remain.append(i)
     return ''.join(remain)
