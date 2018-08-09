@@ -6,7 +6,7 @@ that is comprised of lowercase English letters - all lowercase English letters
 that are not in letters_guessed
 '''
 import string
-Alph_Bet = string.ascii_lowercase
+alph_bet = string.ascii_lowercase
 
 def get_available_letters(letters_guessed):
     '''
@@ -15,7 +15,7 @@ def get_available_letters(letters_guessed):
       yet been guessed.
     '''
     remain = []
-    for i in Alph_Bet:
+    for i in alph_bet:
         if i not in letters_guessed:
             remain.append(i)
     return ''.join(remain)
