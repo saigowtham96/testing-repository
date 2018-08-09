@@ -6,7 +6,7 @@ that is comprised of lowercase English letters - all lowercase English letters
 that are not in letters_guessed
 '''
 import string
-Alph_bet = string.ascii_lowercase
+Alph_Bet = string.ascii_lowercase
 
 def get_available_letters(letters_guessed):
     '''
