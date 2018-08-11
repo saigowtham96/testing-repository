@@ -41,7 +41,7 @@ print(DATA_INPUT)
 data = {}
 for i in range(len(DATA_INP)):
     l = DATA_INP[i].split(" , ")
-    if i not in string:
+    if i not in data:
         if l[0] not in data:
           data[l['0']] = [data(l['1'])]
     else:
