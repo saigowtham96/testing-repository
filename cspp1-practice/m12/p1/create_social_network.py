@@ -35,7 +35,7 @@ def create_social_network(data):
 
     # remove the pass below and start writing your code
 
-string = input("\n")
+string = []
 DATA_INP = string.splitlines(":")
 print(DATA_INP)
 data = {}
