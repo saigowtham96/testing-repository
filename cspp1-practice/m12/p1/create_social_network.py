@@ -38,16 +38,16 @@ def create_social_network(data):
 STRING_INPUT = input()
 DATA_INP = STRING_INPUT.split("\n")
 print(DATA_INPUT)
-string = {}
+data = {}
 for i in range(len(DATA_INP)):
     l = DATA_INP[i].split(" , ")
     if i not in string:
-        if l[0] not in string:
-          string[l[0]] = [string(l[1])]
+        if l[0] not in data:
+          data[l[0]] = [data(l[1])]
     else:
-        if l[1] not in string[l[0]]:
-            string[l[0]].append((string(l[1])))
-print(string)
+        if l[1] not in data[l[0]]:
+            data[l[0]].append((data(l[1])))
+print(data)
 
     
 
