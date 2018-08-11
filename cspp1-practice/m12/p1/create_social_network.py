@@ -45,7 +45,7 @@ for i in range(len(DATA_INP)):
         if l[0] not in string:
           string[l[0]] = [string(l[1])]
     else:
-        if l[1] not in str[l[0]]:
+        if l[1] not in string[l[0]]:
             string[l[0]].append((string(l[1])))
 print(string)
 
