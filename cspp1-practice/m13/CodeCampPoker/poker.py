@@ -13,22 +13,22 @@ def is_straight(hand):
         Think of an algorithm: given the card face value how to check if it a straight
         Write the code for it and return True if it is a straight else return False
     '''
-    list=[]
-    b=[]
-    dict={'T':10,'J':11,'Q':12,'K':13,'A':14}
+    list_l=[]
+    list_b=[]
+    dict_d={'T':10,'J':11,'Q':12,'K':13,'A':14}
     for i in range(len(hand)):
-        if hand[i][0] not in dict:
-            list.append(int(hand[i][0]))
+        if hand[i][0] not in dict_d:
+            list_l.append(int(hand[i][0]))
         else:
-            list.append(dict[hand[i][0]])
+            list_l.append(dict_d[hand[i][0]])
     #print(list)
-    list.sort()
+    list_l.sort()
     #print(list)
-    c=0
-    for i in range((len(list))-1):
-        if list[i+1]-list[i]==1:
-            c=c+1
-    if c==len(list)-1:
+    v_c=0
+    for i in range((len(list_l))-1):
+        if list_l[i+1]-list_l[i]==1:
+            v_c = v_c + 1
+    if v_c == len(list_l)-1:
         return True
     else:
         return False
@@ -44,14 +44,13 @@ def is_flush(hand):
     last=[]
     for i in range(len(hand)):
         last.append(hand[i][1])
-    e = 0
+    v_e = 0
     for each_val in range(len(last)-1):
         if last[each_val]==last[each_val+1]:
-            e=e+1
-    if e == (len(last)-1):
+            v_e = v_e + 1
+    if v_e == (len(last)-1):
         return True
-    else:
-        return False
+    return False
 def hand_rank(hand):
     '''
         You will code this function. The goal of the function is to
@@ -77,9 +76,9 @@ def hand_rank(hand):
     # max in poker(= function uses these return values to select the best hand
     if is_straight(hand) and is_flush(hand):
        return 3
-    if (is_flush(hand)):
+    if is_flush(hand):
        return 2
-    if (is_straight(hand)):
+    if is_straight(hand):
        return 1
     return 0
 def poker(hands):
