@@ -15,7 +15,7 @@ def is_straight(hand):
     '''
     list_l = []
     list_b = []
-    dict_d = {'T':10,'J':11,'Q':12,'K':13,'A':14}
+    dict_d = {'T':10, 'J':11, 'Q':12, 'K':13, 'A':14}
     for i in range(len(hand)):
         if hand[i][0] not in dict_d:
             list_l.append(int(hand[i][0]))
