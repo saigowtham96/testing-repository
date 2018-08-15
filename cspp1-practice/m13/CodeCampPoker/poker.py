@@ -14,22 +14,22 @@ def is_straight(hand):
         Think of an algorithm: given the card face value how to check if it a straight
         Write the code for it and return True if it is a straight else return False
     '''
-    l=[]
+    list=[]
     b=[]
-    d={'T':10,'J':11,'Q':12,'K':13,'A':14}
+    dict={'T':10,'J':11,'Q':12,'K':13,'A':14}
     for i in range(len(hand)):
-        if hand[i][0] not in d:
-            l.append(int(hand[i][0]))
+        if hand[i][0] not in dict:
+            list.append(int(hand[i][0]))
         else:
-            l.append(d[hand[i][0]])
-    #print(l)
-    l.sort()
-    #print(l)
+            list.append(dict[hand[i][0]])
+    #print(list)
+    list.sort()
+    #print(list)
     c=0
-    for i in range((len(l))-1):
-        if l[i+1]-l[i]==1:
+    for i in range((len(list))-1):
+        if list[i+1]-list[i]==1:
             c=c+1
-    if c==len(l)-1:
+    if c==len(list)-1:
         return True
     else:
         return False
