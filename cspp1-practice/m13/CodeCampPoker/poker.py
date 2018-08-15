@@ -3,7 +3,6 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-  
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
@@ -33,10 +32,6 @@ def is_straight(hand):
         return True
     else:
         return False
-        
-        
-    
-
 def is_flush(hand):
     '''
         How do we find out if the given hand is a flush?
@@ -49,18 +44,14 @@ def is_flush(hand):
     last=[]
     for i in range(len(hand)):
         last.append(hand[i][1])
-    e=0
+    e = 0
     for each_val in range(len(last)-1):
         if last[each_val]==last[each_val+1]:
             e=e+1
-    if e==(len(last)-1):
+    if e == (len(last)-1):
         return True
     else:
         return False
-    
-    
-        
-
 def hand_rank(hand):
     '''
         You will code this function. The goal of the function is to
@@ -69,7 +60,6 @@ def hand_rank(hand):
         The first version should identify if the given hand is a straight
         or a flush or a straight flush.
     '''
-
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
     # Each card is coded as a 2 character string. Example Kind of Hearts is KH
@@ -92,7 +82,6 @@ def hand_rank(hand):
     if (is_straight(hand)):
        return 1
     return 0
-
 def poker(hands):
     '''
         This function is completed for you. Read it to learn the code.
@@ -103,7 +92,6 @@ def poker(hands):
 
         Output: Return the winning poker hand
     '''
-
     # the line below may be new to you
     # max function is provided by python library
     # learn how it works, in particular the key argument, from the link
@@ -112,7 +100,6 @@ def poker(hands):
     # hand_rank takes a hand and returns its rank
     # max uses the rank returned by hand_rank and returns the best hand
     return max(hands, key=hand_rank)
-
 if __name__ == "__main__":
     # read the number of test cases
     COUNT = int(input())
