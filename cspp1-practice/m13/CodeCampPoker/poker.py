@@ -22,12 +22,12 @@ def is_straight(hand):
             l.append(hand[i][0])
         else:
             l.append(d[hand[i][0]])
-    b=l.sorted()
+    l.sort()
     c=0
-    for i in range((len(b))-1):
+    for i in range((len(l))-1):
         if b[i+1]-b[i]==1:
             c=c+1
-    if c==len(b)-1:
+    if c==len(l)-1:
         return True
     else:
         return False
