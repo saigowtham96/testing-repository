@@ -30,8 +30,7 @@ def is_straight(hand):
             v_c = v_c + 1
     if v_c == len(list_l)-1:
         return True
-    else:
-        return False
+    return False
 def is_flush(hand):
     '''
         How do we find out if the given hand is a flush?
