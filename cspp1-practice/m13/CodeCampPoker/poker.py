@@ -19,10 +19,12 @@ def is_straight(hand):
     d={'T':10,'J':11,'Q':12,'K':13,'A':14}
     for i in range(len(hand)):
         if hand[i][0] not in d:
-            l.append(hand[i][0])
+            l.append(int(hand[i][0]))
         else:
             l.append(d[hand[i][0]])
+    #print(l)
     l.sort()
+    #print(l)
     c=0
     for i in range((len(l))-1):
         if l[i+1]-l[i]==1:
