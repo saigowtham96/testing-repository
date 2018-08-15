@@ -13,9 +13,9 @@ def is_straight(hand):
         Think of an algorithm: given the card face value how to check if it a straight
         Write the code for it and return True if it is a straight else return False
     '''
-    list_l=[]
-    list_b=[]
-    dict_d={'T':10,'J':11,'Q':12,'K':13,'A':14}
+    list_l = []
+    list_b = []
+    dict_d = {'T':10,'J':11,'Q':12,'K':13,'A':14}
     for i in range(len(hand)):
         if hand[i][0] not in dict_d:
             list_l.append(int(hand[i][0]))
@@ -24,9 +24,9 @@ def is_straight(hand):
     #print(list)
     list_l.sort()
     #print(list)
-    v_c=0
+    v_c = 0
     for i in range((len(list_l))-1):
-        if list_l[i+1]-list_l[i]==1:
+        if list_l[i+1]-list_l[i] == 1:
             v_c = v_c + 1
     if v_c == len(list_l)-1:
         return True
@@ -40,7 +40,7 @@ def is_flush(hand):
         Think of an algorithm: given the card suite how to check if it is a flush
         Write the code for it and return True if it is a flush else return False
     '''
-    last=[]
+    last = []
     for i in range(len(hand)):
         last.append(hand[i][1])
     v_e = 0
