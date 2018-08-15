@@ -45,7 +45,7 @@ def is_flush(hand):
         last.append(hand[i][1])
     v_e = 0
     for each_val in range(len(last)-1):
-        if last[each_val]==last[each_val+1]:
+        if last[each_val] == last[each_val+1]:
             v_e = v_e + 1
     if v_e == (len(last)-1):
         return True
