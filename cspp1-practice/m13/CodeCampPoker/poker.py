@@ -3,7 +3,7 @@
     Read about poker hands here.
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
-
+  
 def is_straight(hand):
     '''
         How do we find out if the given hand is a straight?
