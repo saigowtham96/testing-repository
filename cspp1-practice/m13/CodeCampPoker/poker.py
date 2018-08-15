@@ -14,7 +14,7 @@ def is_straight(hand):
         Write the code for it and return True if it is a straight else return False
     '''
     list_l = []
-    list_b = []
+    #list_b = []
     dict_d = {'T':10, 'J':11, 'Q':12, 'K':13, 'A':14}
     for i in range(len(hand)):
         if hand[i][0] not in dict_d:
