@@ -7,13 +7,13 @@ def dict_fun(hand):
     '''
     determine dict_hand
     '''
-    d = {}
+    dic_input = {}
     for i in range(len(hand)):
-        if hand[i][0] in d:
-            d[hand[i][0]] +=1
+        if hand[i][0] in dic_input:
+            dic_input[hand[i][0]] +=1
         else:
-            d[hand[i][0]] = 1
-    return d
+            dic_input[hand[i][0]] = 1
+    return dic_input
 def is_fourofakind(hand):
     '''
     determine four_of_a_kind
@@ -105,10 +105,7 @@ def is_flush(hand):
             count=count+1
     if count == len(hand)-1:
         return 1
-    else:
-        return 0
-
-
+    return 0
 def hand_rank(hand):
     '''
         You will code this function. The goal of the function is to
