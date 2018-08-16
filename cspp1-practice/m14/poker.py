@@ -186,7 +186,3 @@ if __name__ == "__main__":
     print(' '.join(poker(HANDS)))
     #print(is_straight(['8D', '9D', 'TS', 'JC']))
     #print(is_fourofakind(['AD', 'AH', 'AC', '2S', 'TD']))
-
-            
-
-    
