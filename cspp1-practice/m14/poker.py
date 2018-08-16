@@ -4,6 +4,9 @@
     https://en.wikipedia.org/wiki/List_of_poker_hands
 '''
 def dict_fun(hand):
+    '''
+    determine dict_hand
+    '''
     d = {}
     for i in range(len(hand)):
         if hand[i][0] in d:
@@ -12,6 +15,9 @@ def dict_fun(hand):
             d[hand[i][0]] = 1
     return d
 def is_fourofakind(hand):
+    '''
+    determine four_of_a_kind
+    '''
     flag = 0
     dict_four = {}
     dict_four = dict_fun(hand)
@@ -20,6 +26,9 @@ def is_fourofakind(hand):
             flag = 1
     return flag
 def is_fullhouse(hand):
+    '''
+    determine full_house
+    '''
     flag = 0
     dict_full = {}
     dict_full = dict_fun(hand)
@@ -28,6 +37,9 @@ def is_fullhouse(hand):
             flag = 1
     return flag
 def is_threeofakind(hand):
+    '''
+    determine Three_of_a_kind
+    '''
     flag = 0
     dict_three = {}
     dict_three = dict_fun(hand)
@@ -35,6 +47,9 @@ def is_threeofakind(hand):
         flag = 1
     return flag
 def is_twopair(hand):
+    '''
+     determine two_pair
+     '''
     flag = 0
     dict_twopair = {}
     dict_twopair = dict_fun(hand)
@@ -42,6 +57,9 @@ def is_twopair(hand):
         flag = 1
     return flag
 def is_onepair(hand):
+    '''
+    determine one pair
+    '''
     flag = 0
     dict_onepair = {}
     dict_onepair = dict_fun(hand)
