@@ -99,12 +99,11 @@ def is_flush(hand):
         Think of an algorithm: given the card suite how to check if it is a flush
         Write the code for it and return True if it is a flush else return False
     '''
-    face_val=[]
     count=0
     for i in range(len(hand)-1):
-        if hand[i][1]==hand[i+1][1]:
+        if hand[i][1] == hand[i+1][1]:
             count=count+1
-    if count==len(hand)-1:
+    if count == len(hand)-1:
         return 1
     else:
         return 0
