@@ -22,7 +22,6 @@ def is_straight(hand):
         face_set = {1, 2, 3, 4, 5}
 
     return len(face_set) == 5 and max(face_set) - min(face_set) == 4
-
 def is_flush(hand):
     '''
         How do we find out if the given hand is a flush?
@@ -37,25 +36,20 @@ def is_flush(hand):
         suits_set.add(s)
 
     return len(suits_set) == 1
-
 def is_fourofakind(hand):
-
+    '''
+    determine fourofakind
+    '''
     face_values = get_onlyfacevalues(hand)
-
     for each_face in face_values:
         if face_values.count(each_face) == 4:
             return True
-
     return False
-
 def is_fullhouse(hand):
     face_values = get_onlyfacevalues(hand)
-
     if (face_values.count(face_values[0]) == 3 and face_values.count(face_values[len(face_values)-1]) == 2) or (face_values.count(face_values[0]) == 2 and face_values.count(face_values[len(face_values)-1]) == 3):
         return True
-
     return False
-
 def is_threeofakind(hand):
     face_list = get_onlyfacevalues(hand)
 
@@ -63,9 +57,7 @@ def is_threeofakind(hand):
         for each_face in face_list:
             if face_list.count(each_face) == 3:
                 return True
-
     return False
-
 def is_twopair(hand):
     face_list = get_onlyfacevalues(hand)
     if len(set(face_list)) == 3:
@@ -75,9 +67,7 @@ def is_twopair(hand):
                 count += 1
         if count == 2:
             return True
-
     return False
-
 def is_onepair(hand):
     face_list = get_onlyfacevalues(hand)
     if len(set(face_list)) == 4:
@@ -87,12 +77,9 @@ def is_onepair(hand):
                 count += 1
         if count == 1:
             return True
-
     return False
-
 def is_highcard(hand):
     return len(set(get_onlyfacevalues(hand))) == 5
-
 def get_onlyfacevalues(hand):
     face_values = []
     index_str = '--23456789TJQKA'
@@ -100,23 +87,17 @@ def get_onlyfacevalues(hand):
         face_values.append(index_str.index(c))
 
     return sorted(face_values)
-
 def get_handrank(hand, size):
     face_values = get_onlyfacevalues(hand)
-
     if size == 1:
         return 1/100 * max(face_values)
-
     for each_hand in face_values:
         if face_values.count(each_hand) == 2:
             return 1/100 * int(each_hand)
-
-    return 0
-
+        return 0
 def get_suitrank(hand):
     face_values = get_onlyfacevalues(hand)
     return 1/100 * sum(face_values)
-
 def hand_rank(hand):
     '''
         You will code this function. The goal of the function is to
@@ -125,7 +106,6 @@ def hand_rank(hand):
         The first version should identify if the given hand is a straight
         or a flush or a straight flush.
     '''
-
     # By now you should have seen the way a card is represented.
     # If you haven't then go the main or poker function and print the hands
     # Each card is coded as a 2 character string. Example Kind of Hearts is KH
@@ -141,10 +121,7 @@ def hand_rank(hand):
     # third would be a straight with the return value 1
     # any other hand would be the fourth best with the return value 0
     # max in poker function uses these return values to select the best hand
-
-
     # print(is_highcard(hand))
-
     if is_straight(hand) and is_flush(hand):
         return 9 +get_suitrank(hand)
     if is_fourofakind(hand):
@@ -164,7 +141,6 @@ def hand_rank(hand):
     if is_highcard(hand):
         return 1 + get_handrank(hand, 1)
     return 0
-
 def poker(hands):
     '''
         This function is completed for you. Read it to learn the code.
@@ -175,7 +151,6 @@ def poker(hands):
 
         Output: Return the winning poker hand
     '''
-
     # the line below may be new to you
     # max function is provided by python library
     # learn how it works, in particular the key argument, from the link
@@ -184,7 +159,6 @@ def poker(hands):
     # hand_rank takes a hand and returns its rank
     # max uses the rank returned by hand_rank and returns the best hand
     return max(hands, key=hand_rank)
-
 if __name__ == "__main__":
     # read the number of test cases
     COUNT = int(input())
