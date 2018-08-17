@@ -123,6 +123,9 @@ def get_onlyfacevalues(hand):
     return sorted(face_values)
 
 def get_handrank(hand, size):
+    '''
+    get handrank
+    '''
     face_values = get_onlyfacevalues(hand)
 
     if size == 1:
