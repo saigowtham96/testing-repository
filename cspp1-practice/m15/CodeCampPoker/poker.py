@@ -52,6 +52,9 @@ def is_fourofakind(hand):
     return False
 
 def is_fullhouse(hand):
+    '''
+    determine fullhouse
+    '''
     face_values = get_onlyfacevalues(hand)
 
     if (face_values.count(face_values[0]) == 3 and face_values.count(face_values[len(face_values)-1]) == 2) or (face_values.count(face_values[0]) == 2 and face_values.count(face_values[len(face_values)-1]) == 3):
@@ -60,6 +63,9 @@ def is_fullhouse(hand):
     return False
 
 def is_threeofakind(hand):
+    '''
+    determine threeofakind
+    '''
     face_list = get_onlyfacevalues(hand)
 
     if len(set(face_list)) == 3:
