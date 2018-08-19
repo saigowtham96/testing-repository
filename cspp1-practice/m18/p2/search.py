@@ -44,7 +44,8 @@ def search(search_index, query):
     for i in m:
         v.append(i.lower())
     for i in v:
-        set1.append(adict[i])
+        if i in adict:
+           set1.append(adict[i])
     new = []
     for i in set1:
         for j in i:
