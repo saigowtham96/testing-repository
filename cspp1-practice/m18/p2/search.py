@@ -40,11 +40,15 @@ def search(search_index, query):
     set1 = []
     adict = search_index
     m = query.split(" ")
-    v =[]
+    v = []
     for i in m:
         v.append(i.lower())
     for i in v:
-        set1.append(j[0])
+        set1.append(adict[i])
+    new = []
+    for i in set1:
+        for j in i:
+            new.append(j[0])
     result = set(new)
     return result
 
