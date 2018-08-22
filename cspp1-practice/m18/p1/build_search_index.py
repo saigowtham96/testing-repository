@@ -1,4 +1,5 @@
-'''  Tiny Search Engine - Part 1 - Build a search index
+'''
+    Tiny Search Engine - Part 1 - Build a search index
 
     In this programming assingment you are given with some text documents as input.
     Complete the program below to build a search index. Don't worry, it is explained below.
@@ -19,50 +20,7 @@
         .
     }
 '''
-import re
-import  math
-
-def clean_up(data):
-    '''
-    removing special characters
-    '''
-    data = data.lower()
-    data_list = data.split(" ")
-    count = 0
-    while count < len(data_list):
-        data_list[count] = re.sub("[^a-z]","",data_list[count])
-        count += 1
-
-    return data_list
-
-def remove_stop_words(word_list):
-    '''
-    removing stop words
-    '''
-    stop_words = load_stopwords("stopwords.txt")
-
-    temp_word_list = word_list[:]
-
-    for each_word in temp_word_list:
-        if each_word in stop_words:
-            word_list.remove(each_word)
-
-    return word_list
-def get_frequency(wordlist):
-    freq_dict={}
-    for each_word in word_1:
-        if word not in freq_dict:
-            frequency[each_word]+=[0,1]
-        else:
-            frequency[each_word] = 1 
-    
-    for each_word in word_2:
-        if word not in freq_dict:
-            freqency[each_word]+=[1,0]
-         else:
-             frequency[each_word] = 1
-    return freq_dict       
-    
+FILENAME = "stopwords.txt"
 # helper function to load the stop words from a file
 def load_stopwords(filename):
     '''
@@ -75,7 +33,40 @@ def load_stopwords(filename):
     return stopwords
 
 
-            
+def word_list(text):
+    '''
+        Change case to lower and split the words using a SPACE
+        Clean up the text by remvoing all the non alphabet characters
+        return a list of words
+    '''
+    temp2 = []
+    characters = ".,';"
+    for char in characters:
+        if char in text:
+            text = text.replace(char, '')
+
+
+    temp1 = text.lower().split()
+    print(temp1)
+    temp2 = list(temp1)
+    print(temp2)
+    for word in temp2:
+        if word in load_stopwords(FILENAME):
+            temp1.remove(word)
+
+
+        #temp1.append(re.sub('[^a-zA-Z]','',word))
+
+    #temp1 = []
+    #temp1.append(re.sub('[^a-zA-Z]','',text))
+    # characters ="!@#$%^&*()_+':;?012346789*/-+"
+    #print(temp1)
+    # for word in text:
+    #     for character in characters:
+    #         if character in word:
+    #             word.replace(character, '')
+    # print(text)
+    return temp1
 
 def build_search_index(docs):
     '''
@@ -83,6 +74,23 @@ def build_search_index(docs):
     '''
 
     # initialize a search index (an empty dictionary)
+    search_index = {}
+    #print(docs)
+    for line in range(len(docs)):
+        updated_docs = word_list(docs[line])
+        for word in updated_docs:
+            if word not in search_index.keys():
+                search_index[word] = [(line, updated_docs.count(word))]
+            else:
+                if (line, updated_docs.count(word)) not in search_index[word]:
+                    search_index[word].append((line, updated_docs.count(word)))
+
+    # for word in search_index:
+    #     search_index[word] = set(search_index[word])
+
+        #print(str1)
+        #return str1.index(line)
+    #print(search_index)
 
     # iterate through all the docs
     # keep track of doc_id which is the list index corresponding the document
@@ -92,41 +100,7 @@ def build_search_index(docs):
 
         # add or update the words of the doc to the search index
 
-    # return search index
-    pass
-    d ={}
-    d1 = cleanup(d1)
-    d2 = cleanup(d2)
-    list_1=[]
-    list_2=[]
-    dict_1 = remove_stop_words(d1)
-    dict_2 = remove_stop_words(d2)
-    count=0
-    for i in enumerate(len(dict_1)):
-        list_1.index(dict_1)
-        count=count+1
-    if count == len(dict_1)
-    print(dict_1)
-    return dict_1
-        
-        
-        
-        
-        
-        
-                       
-                       
-                       
-                       
-                       
-            
-        
-                       
-                       
-                       
-            
-                       
-    
+    return search_index
 
 # helper function to print the search index
 # use this to verify how the search index looks
@@ -153,6 +127,7 @@ def main():
         i += 1
 
     # call print to display the search index
+    #print(documents)
     print_search_index(build_search_index(documents))
 
 if __name__ == '__main__':
