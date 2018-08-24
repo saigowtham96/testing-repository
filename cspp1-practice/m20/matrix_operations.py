@@ -24,7 +24,8 @@ def mult_matrix(matrix1, matrix2):
         return multiply_matrix
     print("Error: Matrix shapes invalid for multi")
     return None
-sdef add_matrix(matrix1, matrix2):
+
+def add_matrix(matrix1, matrix2):
     '''
         check if the matrix shapes are similar
         add the matrices and return the result matrix
@@ -53,8 +54,8 @@ def read_matrix():
         error message should be "Error: Invalid input for the matrix"
     '''
     matrix = []
-    rows , columns = input().split(',')
-    for i in range(int(rows)):
+    rows, columns = input().split(',')
+    for _ in range(int(rows)):
         row = list(map(int, input().split()))
         assert len(row) == int(columns)
         matrix.append(row)
