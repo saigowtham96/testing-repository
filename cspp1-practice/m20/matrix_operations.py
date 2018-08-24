@@ -24,8 +24,7 @@ def mult_matrix(matrix1, matrix2):
         return multiply_matrix
     print("Error: Matrix shapes invalid for multi")
     return None
-
-def add_matrix(matrix1, matrix2):
+sdef add_matrix(matrix1, matrix2):
     '''
         check if the matrix shapes are similar
         add the matrices and return the result matrix
@@ -45,8 +44,6 @@ def add_matrix(matrix1, matrix2):
         return addition_matrix
     print("Error: Matrix shapes invalid for addition")
     return None
-
-
 def read_matrix():
     '''
         read the matrix dimensions from input
@@ -69,23 +66,17 @@ def main():
         print addition of two matrices
         print multiplication of two matrices
     '''
-
     # read matrix 1
-    
     try:
         matrix1 = read_matrix()
-
         # read matrix 2
         matrix2 = read_matrix()
     except AssertionError:
         print("Error: Invalid input for the matrix")
-
     else:
         # add matrix 1 and matrix 2
         print(add_matrix(matrix1, matrix2))
-
         # multiply matrix 1 and matrix 2
         print(mult_matrix(matrix1, matrix2))
-
 if __name__ == '__main__':
     main()
