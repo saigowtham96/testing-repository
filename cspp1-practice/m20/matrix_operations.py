@@ -1,6 +1,6 @@
 '''This program is to t ake matrices as input and
     return addition and multiplication of two matrices'''
-def mult_matrix(m1, m2):
+def mult_matrix(matrix1, matrix2):
     '''
         check if the matrix1 columns = matrix2 rows
         mult the matrices and return the result matrix
