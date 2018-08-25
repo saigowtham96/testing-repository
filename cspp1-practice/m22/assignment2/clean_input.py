@@ -7,7 +7,7 @@ def clean_string(string):
     '''
     to remove special characters and retain the alphabets
     '''
-    print re.sub('[^a-zA-Z]+', '', string)
+    print(re.sub('[^a-zA-Z]+', '', string)
             
    
         
