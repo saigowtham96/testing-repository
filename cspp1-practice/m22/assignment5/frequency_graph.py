@@ -10,7 +10,7 @@ def frequency_graph(dictionary):
     '''
     counts = dictionary
     for key in sorted(counts):
-        print(key, '-', counts.replace['#'])
+        print(key, '-', counts.replace[key,'#'])
 	
 
 def main():
