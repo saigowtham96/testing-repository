@@ -7,13 +7,15 @@ the key and frequency with a SPACE - SPACE.
 def print_dictionary(dictionary):
     '''
     print the keys and frequency with space
-
     '''
     counts = dictionary
     for key in sorted(counts):
-        print(key,'-' ,counts[key])
+        print(key,'-',counts[key])
 	
 def main():
+    '''
+    input
+    '''
     dictionary = eval(input())
     print_dictionary(dictionary)
 
