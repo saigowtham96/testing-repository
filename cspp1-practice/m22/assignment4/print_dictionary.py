@@ -10,7 +10,7 @@ def print_dictionary(dictionary):
     '''
     counts = dictionary
     for key in sorted(counts):
-        print(key,'-', counts[key])
+        print(key, '-', counts[key])
 	
 def main():
     '''
