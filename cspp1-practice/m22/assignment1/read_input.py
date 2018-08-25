@@ -3,7 +3,7 @@ Write a python program to read multiple lines of text input and store the input 
 '''
 def read_input(user_input):
    lines = ""
-   for i in range(read_input):
+   for i in range(3):
       lines+=input()+"\n"
    print(lines)
 
