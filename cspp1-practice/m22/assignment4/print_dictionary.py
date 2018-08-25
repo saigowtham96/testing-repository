@@ -12,7 +12,7 @@ def print_dictionary(dictionary):
     '''
     counts = dictionary
     for key in counts:
-        print(key, counts[key])
+        print(key,'-' ,counts[key])
 	
 
             
