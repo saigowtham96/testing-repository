@@ -7,12 +7,7 @@ def clean_string(string):
     '''
     to remove special characters and retain the alphabets
     '''
-    list1 =[]
-    for i in range(len(string)):
-        if i not in list1:
-           list1.append(i)
-    new_string = re.sub('[^ a-zA-Z]', '', list1)
-    print(new_string)
+    print re.sub('[^a-zA-Z]+', '', string)
             
    
         
