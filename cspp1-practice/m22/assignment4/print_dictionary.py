@@ -10,15 +10,10 @@ def print_dictionary(dictionary):
     print the keys and frequency with space
 
     '''
-
     counts = dictionary
     for key in sorted(counts):
         print(key,'-' ,counts[key])
 	
-
-            
-    
-
 def main():
     dictionary = eval(input())
     print_dictionary(dictionary)
