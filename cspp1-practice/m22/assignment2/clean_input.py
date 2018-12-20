@@ -10,7 +10,7 @@ def clean_string(string):
     s = string
     print(re.sub('[^a-zA-Z]+', '', s)
             
-def main():
+ def main():
    string = input()
    print(clean_string(string))
 
