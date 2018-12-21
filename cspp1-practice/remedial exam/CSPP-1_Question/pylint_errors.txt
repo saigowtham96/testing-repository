@@ -1,36 +1,227 @@
 ************* Module sudokku
-sudokku.py:2:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-sudokku.py:2:13: C0326: Exactly one space required after comma
-            i,j = findNextCellToFill(grid, i, j)
+sudokku.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:9:8: C0326: Exactly one space required around comparison
+		if i%9==0 and i!=0:
+        ^^ (bad-whitespace)
+sudokku.py:9:17: C0326: Exactly one space required around comparison
+		if i%9==0 and i!=0:
+                 ^^ (bad-whitespace)
+sudokku.py:10:21: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:17:22: C0326: Exactly one space required after comma
+				print(sudoku(list1,i,j))
+                      ^ (bad-whitespace)
+sudokku.py:17:24: C0326: Exactly one space required after comma
+				print(sudoku(list1,i,j))
+                        ^ (bad-whitespace)
+sudokku.py:18:16: C0326: Exactly one space required after comma
+def sudoku(list1,i,j):
+                ^ (bad-whitespace)
+sudokku.py:18:18: C0326: Exactly one space required after comma
+def sudoku(list1,i,j):
+                  ^ (bad-whitespace)
+sudokku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:28:18: C0326: Exactly one space required after comma
+		for x in range(0,3):
+                  ^ (bad-whitespace)
+sudokku.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:29:19: C0326: Exactly one space required after comma
+			for y in range(0,3):
+                   ^ (bad-whitespace)
+sudokku.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:32:18: C0326: Exactly one space required after comma
+		for x in range(0,3):
+                  ^ (bad-whitespace)
+sudokku.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:33:19: C0326: Exactly one space required after comma
+			for y in range(3,6):
+                   ^ (bad-whitespace)
+sudokku.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:36:18: C0326: Exactly one space required after comma
+		for x in range(0,3):
+                  ^ (bad-whitespace)
+sudokku.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:37:19: C0326: Exactly one space required after comma
+			for y in range(6,9):
+                   ^ (bad-whitespace)
+sudokku.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:40:18: C0326: Exactly one space required after comma
+		for x in range(3,6):
+                  ^ (bad-whitespace)
+sudokku.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:41:19: C0326: Exactly one space required after comma
+			for y in range(0,3):
+                   ^ (bad-whitespace)
+sudokku.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:44:18: C0326: Exactly one space required after comma
+		for x in range(3,6):
+                  ^ (bad-whitespace)
+sudokku.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:45:19: C0326: Exactly one space required after comma
+			for y in range(3,6):
+                   ^ (bad-whitespace)
+sudokku.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:48:18: C0326: Exactly one space required after comma
+		for x in range(3,6):
+                  ^ (bad-whitespace)
+sudokku.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:49:19: C0326: Exactly one space required after comma
+			for y in range(6,9):
+                   ^ (bad-whitespace)
+sudokku.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:52:18: C0326: Exactly one space required after comma
+		for x in range(6,9):
+                  ^ (bad-whitespace)
+sudokku.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:53:19: C0326: Exactly one space required after comma
+			for y in range(0,3):
+                   ^ (bad-whitespace)
+sudokku.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:55:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:56:18: C0326: Exactly one space required after comma
+		for x in range(6,9):
+                  ^ (bad-whitespace)
+sudokku.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:57:19: C0326: Exactly one space required after comma
+			for y in range(3,6):
+                   ^ (bad-whitespace)
+sudokku.py:58:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:60:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:60:18: C0326: Exactly one space required after comma
+		for x in range(6,9):
+                  ^ (bad-whitespace)
+sudokku.py:61:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:61:19: C0326: Exactly one space required after comma
+			for y in range(6,9):
+                   ^ (bad-whitespace)
+sudokku.py:62:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:63:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:64:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:66:20: C0326: Exactly one space required after comma
+	inte = list(map(int,string1))
+                    ^ (bad-whitespace)
+sudokku.py:67:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:67:11: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+           ^ (bad-whitespace)
+sudokku.py:67:13: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
              ^ (bad-whitespace)
-sudokku.py:3:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-sudokku.py:4:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-sudokku.py:5:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-sudokku.py:5:28: C0326: Exactly one space required after comma
-            for e in range(1,10):
-                            ^ (bad-whitespace)
-sudokku.py:6:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-sudokku.py:6:35: C0326: Exactly one space required after comma
-                    if isValid(grid,i,j,e):
-                                   ^ (bad-whitespace)
-sudokku.py:6:37: C0326: Exactly one space required after comma
-                    if isValid(grid,i,j,e):
-                                     ^ (bad-whitespace)
-sudokku.py:6:39: C0326: Exactly one space required after comma
-                    if isValid(grid,i,j,e):
-                                       ^ (bad-whitespace)
-sudokku.py:7:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-sudokku.py:8:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-sudokku.py:9:0: W0311: Bad indentation. Found 36 spaces, expected 16 (bad-indentation)
-sudokku.py:11:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-sudokku.py:12:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
+sudokku.py:67:15: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+               ^ (bad-whitespace)
+sudokku.py:67:17: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+                 ^ (bad-whitespace)
+sudokku.py:67:19: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+                   ^ (bad-whitespace)
+sudokku.py:67:21: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+                     ^ (bad-whitespace)
+sudokku.py:67:23: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+                       ^ (bad-whitespace)
+sudokku.py:67:25: C0326: Exactly one space required after comma
+	whole = [1,2,3,4,5,6,7,8,9]
+                         ^ (bad-whitespace)
+sudokku.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:70:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:72:23: C0326: Exactly one space required after comma
+	string2 = list(map(str,numbers))
+                       ^ (bad-whitespace)
+sudokku.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudokku.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudokku.py:1:0: C0111: Missing module docstring (missing-docstring)
-sudokku.py:1:0: C0103: Function name "solveSudoku" doesn't conform to snake_case naming style (invalid-name)
-sudokku.py:1:0: C0111: Missing function docstring (missing-docstring)
-sudokku.py:2:18: E0602: Undefined variable 'findNextCellToFill' (undefined-variable)
-sudokku.py:5:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudokku.py:6:23: E0602: Undefined variable 'isValid' (undefined-variable)
+sudokku.py:2:0: C0111: Missing function docstring (missing-docstring)
+sudokku.py:8:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudokku.py:14:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudokku.py:18:0: C0111: Missing function docstring (missing-docstring)
+sudokku.py:23:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudokku.py:24:2: E0602: Undefined variable 'tem' (undefined-variable)
+sudokku.py:25:5: C0103: Variable name "m" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:26:2: E0602: Undefined variable 'tem' (undefined-variable)
+sudokku.py:27:5: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:27:29: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:28:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:29:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:31:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:31:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:32:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:33:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:35:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:35:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:36:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:37:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:39:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:39:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:40:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:41:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:43:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:43:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:44:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:45:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:47:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:47:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:48:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:49:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:51:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:51:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:52:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:53:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:55:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:55:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:56:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:57:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:59:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:59:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+sudokku.py:60:6: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:61:7: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:63:19: E0602: Undefined variable 'tem' (undefined-variable)
+sudokku.py:64:11: E0601: Using variable 'string' before assignment (used-before-assignment)
+sudokku.py:69:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudokku.py:69:5: C0103: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
+sudokku.py:18:0: R0912: Too many branches (31/12) (too-many-branches)
+sudokku.py:1:0: W0611: Unused import re (unused-import)
 
----------------------------------------------------------------------
-Your code has been rated at -16.36/10 (previous run: 0.00/10, -16.36)
+----------------------------------------------------------------------
+Your code has been rated at -13.61/10 (previous run: -16.36/10, +2.75)
 
