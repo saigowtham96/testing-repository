@@ -22,6 +22,8 @@ def possibilities(h):
                 for each in "123456789":
                     if each not in s:
                         result += each
+                    else:
+                        print("Invalid Sudoku:Duplicate values")
                 print(result)
 
 if __name__=="__main__": 
