@@ -17,12 +17,14 @@ def possibilities(h):
             char = set()
             if h[i][j] == '0':
                 char = create_set(h, i, j)
-                # print(s)
+                # print(char)
             if len(char) != 0:
                 for each in "123456789":
                     if each not in char:
                         result += each
                 print(result)
+            if len(char) < 81 or len(char) > 81:
+                return "Invalid input"
         
 
 if __name__=="__main__": 
