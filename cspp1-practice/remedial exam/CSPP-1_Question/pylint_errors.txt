@@ -1,0 +1,9 @@
+************* Module sudokku
+sudokku.py:24:15: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:1:0: C0111: Missing module docstring (missing-docstring)
+sudokku.py:8:7: E0602: Undefined variable 'row_check' (undefined-variable)
+sudokku.py:8:36: E0602: Undefined variable 'column_check' (undefined-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)
+
