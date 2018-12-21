@@ -23,8 +23,7 @@ def possibilities(h):
                     if each not in char:
                         result += each
                 print(result)
-            if len(char) < 81 or len(char) > 81:
-                return "Invalid input"
+            
         
 
 if __name__=="__main__": 
