@@ -1,28 +1,28 @@
 def print_grid(arr): 
     for i in range(9): 
         print(arr[i]) 
-def create_set(g, row, col):
-    lis= set()
+def create_set(h, row, col):
+    list1= set()
     for i in range(9):
-        if g[row][i] != '0':
-            lis.add(g[row][i])
-        if g[i][col] != '0':
-            lis.add(g[i][col])
-    return lis
+        if h[row][i] != '0':
+            list1.add(h[row][i])
+        if h[i][col] != '0':
+            list1.add(h[i][col])
+    return list1
 
-def possibilities(g):
+def possibilities(h):
     for i in range(9):
         for j in range(9):
-            res = ""
+            result = ""
             s = set()
-            if g[i][j] == '0':
-                s = create_set(g, i, j)
+            if h[i][j] == '0':
+                s = create_set(h, i, j)
                 # print(s)
             if len(s) != 0:
                 for each in "123456789":
                     if each not in s:
-                        res += each
-                print(res)
+                        result += each
+                print(result)
 
 if __name__=="__main__": 
       
