@@ -4,8 +4,8 @@ Given sudoku is solved
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -23,8 +23,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -42,8 +42,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -55,8 +55,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -68,8 +68,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -87,8 +87,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -106,8 +106,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -125,8 +125,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -144,8 +144,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -163,8 +163,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -182,8 +182,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -201,8 +201,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -220,8 +220,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -239,8 +239,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -267,8 +267,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -309,8 +309,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -320,8 +320,8 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -331,8 +331,8 @@ Invalid input
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -342,8 +342,8 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -416,8 +416,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -427,8 +427,8 @@ Invalid input
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -488,8 +488,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -556,8 +556,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -590,8 +590,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -637,8 +637,8 @@ Expected Output:
 
 Your Output: 
   File "sudokku.py", line 42
-    if given_input > 81
-                      ^
+    if given_input[k] > 81
+                         ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
