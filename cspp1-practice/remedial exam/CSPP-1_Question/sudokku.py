@@ -23,8 +23,7 @@ def possibilities(h):
                     if each not in s:
                         result += each
                 print(result)
-            else:
-                print("Invalid Sudoku:Duplicate values")
+        
 
 if __name__=="__main__": 
       

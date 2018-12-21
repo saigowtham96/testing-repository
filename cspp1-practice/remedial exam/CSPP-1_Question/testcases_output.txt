@@ -3,90 +3,10 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
+
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 7
 7
@@ -100,89 +20,17 @@ Expected Output:
 
 Your Output: 
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 2
@@ -195,266 +43,38 @@ Expected Output:
 9
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 5
 6
 2
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
 6
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
 ----------------------------------------
 
@@ -471,42 +91,6 @@ Expected Output:
 15
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3
 7
 4
@@ -516,45 +100,9 @@ Invalid Sudoku:Duplicate values
 9
 1
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 2
 1
@@ -567,90 +115,18 @@ Expected Output:
 3
 
 Your Output: 
-Invalid Sudoku:Duplicate values
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 7
 2
@@ -666,87 +142,15 @@ Your Output:
 7
 2
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3
 1
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
 8
 9
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 1
 5
@@ -768,78 +172,6 @@ Your Output:
 3
 7
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -855,78 +187,6 @@ Expected Output:
 469
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 8
 7
 3
@@ -938,7 +198,7 @@ Invalid Sudoku:Duplicate values
 4
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 1
 7
@@ -952,89 +212,17 @@ Expected Output:
 
 Your Output: 
 1
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 6
 1
@@ -1047,90 +235,18 @@ Expected Output:
 4
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 1
 5
@@ -1146,84 +262,12 @@ Your Output:
 1
 5
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
 3
 9
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
 6
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -1239,84 +283,12 @@ Expected Output:
 469
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
 8
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
 3
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
 6
 4
@@ -1347,81 +319,18 @@ Your Output:
 1
 5
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
 3
 9
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
 6
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
 8
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
 3
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 9
 6
 4
@@ -1463,7 +372,6 @@ Expected Output:
 23689
 
 Your Output: 
-Invalid Sudoku:Duplicate values
 13
 57
 16
@@ -1471,71 +379,20 @@ Invalid Sudoku:Duplicate values
 57
 23
 89
-Invalid Sudoku:Duplicate values
 34
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 34
 27
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 27
 15
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 15
 17
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 17
 59
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 59
 68
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 68
 36
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 36
-Invalid Sudoku:Duplicate values
 13
 57
 16
@@ -1543,7 +400,6 @@ Invalid Sudoku:Duplicate values
 57
 23
 89
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -1551,78 +407,6 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 23456789
 13456789
 12456789
@@ -1640,7 +424,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudokku.py", line 39, in <module>
+  File "sudokku.py", line 38, in <module>
     if given_input[k] != '.':
 IndexError: string index out of range
 ----------------------------------------
@@ -1650,87 +434,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -1801,17 +505,13 @@ Expected Output:
 235689
 
 Your Output: 
-Invalid Sudoku:Duplicate values
 1679
 123679
 139
 23679
 12679
-Invalid Sudoku:Duplicate values
 1239
-Invalid Sudoku:Duplicate values
 26789
-Invalid Sudoku:Duplicate values
 1256789
 14589
 245679
@@ -1822,35 +522,29 @@ Invalid Sudoku:Duplicate values
 23689
 145689
 1235689
-Invalid Sudoku:Duplicate values
 234569
 1245689
 123569
 1234589
 1234689
 3789
-Invalid Sudoku:Duplicate values
 135789
 134589
 34579
 145789
 13579
-Invalid Sudoku:Duplicate values
 134789
 23679
 15679
 1235679
 1359
-Invalid Sudoku:Duplicate values
 125679
-Invalid Sudoku:Duplicate values
 12359
 123679
 236789
 456789
 2356789
 34589
-Invalid Sudoku:Duplicate values
 2456789
 235679
 234589
@@ -1858,24 +552,17 @@ Invalid Sudoku:Duplicate values
 289
 14589
 12589
-Invalid Sudoku:Duplicate values
 2459
-Invalid Sudoku:Duplicate values
 1259
-Invalid Sudoku:Duplicate values
 12489
-Invalid Sudoku:Duplicate values
 146789
 136789
-Invalid Sudoku:Duplicate values
 34679
 146789
 13679
 13489
 1346789
-Invalid Sudoku:Duplicate values
 56789
-Invalid Sudoku:Duplicate values
 3589
 235679
 256789
@@ -1890,7 +577,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "sudokku.py", line 39, in <module>
+  File "sudokku.py", line 38, in <module>
     if given_input[k] != '.':
 IndexError: string index out of range
 ----------------------------------------
@@ -1950,87 +637,57 @@ Expected Output:
 1346
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 12469
 269
-Invalid Sudoku:Duplicate values
 12468
 14689
 1249
 248
-Invalid Sudoku:Duplicate values
 2478
 2347
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3478
 234
 2478
 123
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 2357
 345
 1247
 13457
-Invalid Sudoku:Duplicate values
 247
-Invalid Sudoku:Duplicate values
 12457
 124579
 2579
-Invalid Sudoku:Duplicate values
 1247
 14579
 12459
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 257
 25679
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
 5679
 259
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1458
 13459
 359
-Invalid Sudoku:Duplicate values
 148
 134589
 13459
-Invalid Sudoku:Duplicate values
 139
-Invalid Sudoku:Duplicate values
 134579
 3579
 345
 147
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 47
 23
 278
 2367
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 3678
 23
-Invalid Sudoku:Duplicate values
 123
 1245
 123456
 2356
-Invalid Sudoku:Duplicate values
 1246
 13456
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -2095,8 +752,6 @@ Expected Output:
 4567
 
 Your Output: 
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 23469
 23467
 124679
@@ -2107,33 +762,22 @@ Invalid Sudoku:Duplicate values
 2679
 4679
 245689
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 24567
 4569
 245678
 24789
-Invalid Sudoku:Duplicate values
 1367
 2368
 2367
 12678
 2367
 136
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1367
-Invalid Sudoku:Duplicate values
 3456
-Invalid Sudoku:Duplicate values
 14567
-Invalid Sudoku:Duplicate values
 13456
 34567
 147
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 23467
 24679
 23467
@@ -2146,24 +790,17 @@ Invalid Sudoku:Duplicate values
 2345
 124589
 2345
-Invalid Sudoku:Duplicate values
 23458
-Invalid Sudoku:Duplicate values
 2369
 3469
-Invalid Sudoku:Duplicate values
 23456
 24569
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 23456
 249
 12367
 13467
 23456
-Invalid Sudoku:Duplicate values
 124567
-Invalid Sudoku:Duplicate values
 13456
 234567
 1247
@@ -2173,9 +810,6 @@ Invalid Sudoku:Duplicate values
 4567
 456789
 4567
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -2206,87 +840,30 @@ Expected Output:
 6
 
 Your Output: 
-Invalid Sudoku:Duplicate values
 2
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 58
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 68
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 67
-Invalid Sudoku:Duplicate values
 5
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 69
-Invalid Sudoku:Duplicate values
 45
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 469
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
 78
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
 34
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 7
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 469
 26
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 6
-Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -2330,86 +907,42 @@ Expected Output:
 19
 
 Your Output: 
-Invalid Sudoku:Duplicate values
 24
 346
 2346
-Invalid Sudoku:Duplicate values
 123
-Invalid Sudoku:Duplicate values
 1234
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 458
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 589
 9
 4
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
 36
-Invalid Sudoku:Duplicate values
 138
-Invalid Sudoku:Duplicate values
 13
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 34
-Invalid Sudoku:Duplicate values
 36
-Invalid Sudoku:Duplicate values
 38
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 35
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 235
-Invalid Sudoku:Duplicate values
 23
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 248
-Invalid Sudoku:Duplicate values
 234
-Invalid Sudoku:Duplicate values
 238
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 38
 1
-Invalid Sudoku:Duplicate values
 347
-Invalid Sudoku:Duplicate values
 134
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1347
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 37
 23
 13
-Invalid Sudoku:Duplicate values
 39
-Invalid Sudoku:Duplicate values
 139
 128
-Invalid Sudoku:Duplicate values
 8
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 1289
-Invalid Sudoku:Duplicate values
-Invalid Sudoku:Duplicate values
 189
 ----------------------------------------
 

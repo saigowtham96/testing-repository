@@ -5,33 +5,34 @@ sudokku.py:3:21: C0303: Trailing whitespace (trailing-whitespace)
 sudokku.py:5:9: C0326: Exactly one space required before assignment
     list1= set()
          ^ (bad-whitespace)
-sudokku.py:29:24: C0303: Trailing whitespace (trailing-whitespace)
-sudokku.py:29:11: C0326: Exactly one space required around comparison
+sudokku.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:28:24: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:28:11: C0326: Exactly one space required around comparison
 if __name__=="__main__": 
            ^^ (bad-whitespace)
-sudokku.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
-sudokku.py:31:38: C0303: Trailing whitespace (trailing-whitespace)
-sudokku.py:32:51: C0303: Trailing whitespace (trailing-whitespace)
-sudokku.py:32:8: C0326: Exactly one space required around assignment
+sudokku.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:30:38: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:31:51: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:31:8: C0326: Exactly one space required around assignment
     grid=[['0' for x in range(9)]for y in range(9)] 
         ^ (bad-whitespace)
-sudokku.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
+sudokku.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
 sudokku.py:1:0: C0111: Missing module docstring (missing-docstring)
 sudokku.py:1:0: C0111: Missing function docstring (missing-docstring)
-sudokku.py:2:8: W0621: Redefining name 'i' from outer scope (line 37) (redefined-outer-name)
+sudokku.py:2:8: W0621: Redefining name 'i' from outer scope (line 36) (redefined-outer-name)
 sudokku.py:4:0: C0103: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
 sudokku.py:4:0: C0111: Missing function docstring (missing-docstring)
-sudokku.py:6:8: W0621: Redefining name 'i' from outer scope (line 37) (redefined-outer-name)
+sudokku.py:6:8: W0621: Redefining name 'i' from outer scope (line 36) (redefined-outer-name)
 sudokku.py:13:0: C0103: Argument name "h" doesn't conform to snake_case naming style (invalid-name)
 sudokku.py:13:0: C0111: Missing function docstring (missing-docstring)
-sudokku.py:14:8: W0621: Redefining name 'i' from outer scope (line 37) (redefined-outer-name)
-sudokku.py:15:12: W0621: Redefining name 'j' from outer scope (line 38) (redefined-outer-name)
+sudokku.py:14:8: W0621: Redefining name 'i' from outer scope (line 36) (redefined-outer-name)
+sudokku.py:15:12: W0621: Redefining name 'j' from outer scope (line 37) (redefined-outer-name)
 sudokku.py:17:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 sudokku.py:19:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 sudokku.py:21:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-sudokku.py:32:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-sudokku.py:35:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudokku.py:31:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+sudokku.py:34:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.35/10 (previous run: 2.12/10, +0.23)
+Your code has been rated at 1.82/10 (previous run: 2.35/10, -0.53)
 
