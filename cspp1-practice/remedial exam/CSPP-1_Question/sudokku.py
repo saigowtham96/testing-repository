@@ -39,7 +39,5 @@ if __name__=="__main__":
             if given_input[k] != '.':
                 grid[i][j] = given_input[k]
             k += 1
-            if given_input[k] > 81
-            print("Invalid input")
     # print_grid(grid)
     possibilities(grid)
