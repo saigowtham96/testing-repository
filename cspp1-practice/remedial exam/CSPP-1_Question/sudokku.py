@@ -14,13 +14,13 @@ def possibilities(h):
     for i in range(9):
         for j in range(9):
             result = ""
-            s = set()
+            char = set()
             if h[i][j] == '0':
-                s = create_set(h, i, j)
+                char = create_set(h, i, j)
                 # print(s)
-            if len(s) != 0:
+            if len(char) != 0:
                 for each in "123456789":
-                    if each not in s:
+                    if each not in char:
                         result += each
                 print(result)
         
