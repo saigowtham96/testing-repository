@@ -78,5 +78,5 @@ sudoku.py:71:30: W0631: Using possibly undefined loop variable 'j' (undefined-lo
 sudoku.py:63:8: W0612: Unused variable 'i' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -19.74/10 (previous run: -20.00/10, +0.26)
+Your code has been rated at -19.74/10 (previous run: -19.74/10, +0.00)
 
