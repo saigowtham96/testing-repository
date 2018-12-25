@@ -44,9 +44,9 @@ def getColumnValues(col):
 """
 This  method should retunn all the values present in the x,j th subgrid
 """
-def getGridValues():
+def getGridValues(grid):
         for i in range(9):
-                return grid[i][j]
+                print(grid[i])
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
@@ -67,10 +67,9 @@ def main():
                         if given_input[k] != '.':
                                 grid[i][j] = given_input[k]
                         k += 1
-        print(grid[i][j])
-        print(validateSudoku(given_input))
-        print(getRowValues(i))
-        print(getColumnValues(j))
+print(getGridValues(grid)
+print(getRowValues(i))
+print(getColumnValues(j))
         
                                 
                                 
