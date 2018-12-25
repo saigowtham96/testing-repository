@@ -60,7 +60,7 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
         grid = [['0' for x in range(9)] for y in range(9)]
-        given_input = str(input())
+        given_input = (input())
         k = 0
         for i in range(9):
                 for j in range(9):
