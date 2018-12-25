@@ -38,7 +38,6 @@ sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_c
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:12:15: E0602: Undefined variable 'given_input' (undefined-variable)
 sudoku.py:12:40: E0602: Undefined variable 'given_input' (undefined-variable)
-sudoku.py:11:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
 sudoku.py:11:19: W0613: Unused argument 'sudoku' (unused-argument)
 sudoku.py:21:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:22:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
@@ -68,6 +67,6 @@ sudoku.py:65:22: W0631: Using possibly undefined loop variable 'j' (undefined-lo
 sudoku.py:66:14: E0602: Undefined variable 'validatesudoku' (undefined-variable)
 sudoku.py:60:8: W0612: Unused variable 'i' (unused-variable)
 
--------------------------------------
-Your code has been rated at -21.76/10
+----------------------------------------------------------------------
+Your code has been rated at -21.47/10 (previous run: -21.76/10, +0.29)
 
