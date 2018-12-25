@@ -67,9 +67,9 @@ def main():
                         if given_input[k] != '.':
                                 grid[i][j] = given_input[k]
                         k += 1
-print(getGridValues(grid)
-print(getRowValues(i))
-print(getColumnValues(j))
+       print(getGridValues(grid))
+       print(getRowValues(i))
+       print(getColumnValues(j))
         
                                 
                                 
