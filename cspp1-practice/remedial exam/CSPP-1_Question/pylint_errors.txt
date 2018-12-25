@@ -64,9 +64,8 @@ sudoku.py:63:39: E0602: Undefined variable 'k' (undefined-variable)
 sudoku.py:64:57: E0602: Undefined variable 'k' (undefined-variable)
 sudoku.py:65:19: W0631: Using possibly undefined loop variable 'x' (undefined-loop-variable)
 sudoku.py:65:22: W0631: Using possibly undefined loop variable 'j' (undefined-loop-variable)
-sudoku.py:66:14: E0602: Undefined variable 'validatesudoku' (undefined-variable)
 sudoku.py:60:8: W0612: Unused variable 'i' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -21.47/10 (previous run: -21.76/10, +0.29)
+Your code has been rated at -20.00/10 (previous run: -21.47/10, +1.47)
 

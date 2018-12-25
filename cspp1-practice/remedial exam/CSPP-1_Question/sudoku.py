@@ -63,7 +63,7 @@ def main():
                         if given_input[k] != '.':
                                 grid[x][j] = given_input[k]
         print(grid[x][j])
-        print(validatesudoku(given_input))
+        print(validateSudoku(given_input))
         
                                 
                                 
