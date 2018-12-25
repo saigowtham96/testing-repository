@@ -15,6 +15,7 @@ def validateSudoku(sudoku):
         
         
         
+        
 	
 """
 This  method should retunn all the values present in the xth row
@@ -22,8 +23,9 @@ This  method should retunn all the values present in the xth row
 def getRowValues(row):
         list1 = set()
         for x in range(9):
-                if row[x] != '0':
-                        list1.append(x)
+                for x in range(9):
+                        if row[x] != '0':
+                                list1.append(x)
         return list1
          
 	
@@ -32,9 +34,10 @@ This  method should retunn all the values present in the ith column
 """
 def getColumnValues(col):
         list2 = set()
-        for j in range(9):
-                if col[j] != '0':
-                        list2.append(j)
+        for x in range(9):
+                for j in range(9):
+                        if col[j] != '0':
+                                list2.append(j)
         return list2
 
 
@@ -64,6 +67,8 @@ def main():
                                 grid[x][j] = given_input[k]
         print(grid[x][j])
         print(validateSudoku(given_input))
+        print(getRowValues(x))
+        print(getColumnValues(j))
         
                                 
                                 
