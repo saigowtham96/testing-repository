@@ -22,10 +22,10 @@ This  method should retunn all the values present in the xth row
 """
 def getRowValues(row):
         list1 = set()
-        for x in range(9):
-                for x in range(9):
-                        if row[x] != '0':
-                                list1.append(x)
+        for i in range(9):
+                for j in range(9):
+                        if row[i] != '0':
+                                list1.append(i)
         return list1
          
 	
@@ -34,7 +34,7 @@ This  method should retunn all the values present in the ith column
 """
 def getColumnValues(col):
         list2 = set()
-        for x in range(9):
+        for i in range(9):
                 for j in range(9):
                         if col[j] != '0':
                                 list2.append(j)
@@ -45,7 +45,7 @@ def getColumnValues(col):
 This  method should retunn all the values present in the x,j th subgrid
 """
 def getGridValues():
-	return grid[x][j]
+	return grid[i][j]
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
@@ -58,16 +58,17 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-        grid = [['0' for x in range(9)] for j in range(9)]
+        grid = [['0' for x in range(9)] for y in range(9)]
         given_input = str(input())
-        i = 0
-        for x in range(9):
+        k = 0
+        for i in range(9):
                 for j in range(9):
                         if given_input[k] != '.':
-                                grid[x][j] = given_input[k]
-        print(grid[x][j])
+                                grid[i][j] = given_input[k]
+                        k += 1
+        print(grid[i][j])
         print(validateSudoku(given_input))
-        print(getRowValues(x))
+        print(getRowValues(i))
         print(getColumnValues(j))
         
                                 
