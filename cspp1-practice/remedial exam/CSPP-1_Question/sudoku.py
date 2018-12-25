@@ -9,7 +9,7 @@ In this method :
 	raise an exception
 """
 def validateSudoku(sudoku):
-        if len(given_input) > 81 or len(given_input) < 81:
+        if len(given_input) != 81:
                 raise Exception("Invalid input")
         
         
