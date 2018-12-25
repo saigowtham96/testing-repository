@@ -29,16 +29,15 @@ sudoku.py:63:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentat
 sudoku.py:64:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
 sudoku.py:65:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
 sudoku.py:66:0: W0311: Bad indentation. Found 16 spaces, expected 8 (bad-indentation)
-sudoku.py:67:0: W0311: Bad indentation. Found 24 spaces, expected 12 (bad-indentation)
-sudoku.py:68:0: W0311: Bad indentation. Found 32 spaces, expected 16 (bad-indentation)
-sudoku.py:69:0: W0311: Bad indentation. Found 24 spaces, expected 12 (bad-indentation)
+sudoku.py:67:0: W0311: Bad indentation. Found 32 spaces, expected 12 (bad-indentation)
+sudoku.py:68:0: W0311: Bad indentation. Found 32 spaces, expected 12 (bad-indentation)
+sudoku.py:69:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
 sudoku.py:70:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-sudoku.py:71:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+sudoku.py:72:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:73:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:74:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:75:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:76:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:78:0: C0305: Trailing newlines (trailing-newlines)
+sudoku.py:77:0: C0305: Trailing newlines (trailing-newlines)
 sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:12:15: E0602: Undefined variable 'given_input' (undefined-variable)
@@ -62,5 +61,5 @@ sudoku.py:60:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:61:0: C0111: Missing function docstring (missing-docstring)
 
 ----------------------------------------------------------------------
-Your code has been rated at -10.26/10 (previous run: -10.26/10, +0.00)
+Your code has been rated at -10.54/10 (previous run: -10.26/10, -0.28)
 

@@ -64,9 +64,8 @@ def main():
         k = 0
         for i in range(9):
                 for j in range(9):
-                        if given_input[k] != '.':
                                 grid[i][j] = given_input[k]
-                        k = k+1
+                                k = k+1
         print(getGridValues(grid))
         print(validateSudoku(given_input))
 
