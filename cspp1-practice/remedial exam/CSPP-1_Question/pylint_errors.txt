@@ -48,12 +48,10 @@ sudoku.py:22:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:23:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:23:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:28:32: E1101: Instance of 'set' has no 'append' member (no-member)
-sudoku.py:26:20: W0612: Unused variable 'j' (unused-variable)
 sudoku.py:34:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:35:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:35:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:40:32: E1101: Instance of 'set' has no 'append' member (no-member)
-sudoku.py:37:12: W0612: Unused variable 'i' (unused-variable)
 sudoku.py:46:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:47:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:47:0: C0111: Missing function docstring (missing-docstring)
@@ -64,5 +62,5 @@ sudoku.py:60:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:61:0: C0111: Missing function docstring (missing-docstring)
 
 ----------------------------------------------------------------------
-Your code has been rated at -10.79/10 (previous run: -11.08/10, +0.29)
+Your code has been rated at -10.26/10 (previous run: -10.79/10, +0.53)
 

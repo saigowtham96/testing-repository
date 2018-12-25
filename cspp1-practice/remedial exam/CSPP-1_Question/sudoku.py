@@ -24,8 +24,8 @@ def getRowValues(row):
         list1 = set()
         for i in range(9):
                 for j in range(9):
-                        if row[i] != '0':
-                                list1.append(i)
+                        if row[i][j] != '0':
+                                list1.append([i][j])
         return list1
          
 	
@@ -36,8 +36,8 @@ def getColumnValues(col):
         list2 = set()
         for i in range(9):
                 for j in range(9):
-                        if col[j] != '0':
-                                list2.append(j)
+                        if col[i][j] != '0':
+                                list2.append([i][j])
         return list2
 
 
