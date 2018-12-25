@@ -68,6 +68,7 @@ def main():
                                 grid[i][j] = given_input[k]
                         k = k+1
         print(getGridValues(grid))
+        print(validateSudoku(given_input))
 
         
                                 
