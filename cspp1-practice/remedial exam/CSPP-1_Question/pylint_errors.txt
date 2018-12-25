@@ -63,5 +63,5 @@ sudoku.py:60:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:61:0: C0111: Missing function docstring (missing-docstring)
 
 ----------------------------------------------------------------------
-Your code has been rated at -11.08/10 (previous run: -13.75/10, +2.67)
+Your code has been rated at -11.08/10 (previous run: -11.08/10, +0.00)
 
