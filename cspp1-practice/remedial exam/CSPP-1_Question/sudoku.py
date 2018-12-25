@@ -59,17 +59,16 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-        grid = [['0' for x in range(9)] for y in range(9)]
+        grid = [[0 for x in range(9)] for y in range(9)]
         given_input = input()
         k = 0
         for i in range(9):
                 for j in range(9):
                         if given_input[k] != '.':
                                 grid[i][j] = given_input[k]
-                        k += 1
-       getGridValues(grid)
-       getRowValues(i)
-       getColumnValues(j)
+                        k = k+1
+        getGridValues(grid)
+
         
                                 
                                 
