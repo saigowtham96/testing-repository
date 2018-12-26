@@ -52,17 +52,30 @@ You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues():
-    pass
+    for i in range(len(sudoku)):
+        for j in range(len(sudoku)):
+            if sudoku[i][j] = '.':
+                rowval = getRow(i, sudoku)
+                colval = getColumn(j, sudoku)
+                newinfo = rowval+colval
+                print(newinfo)
+                string = ""
+                for i in range(1, 10):
+                    if str(i) in new data:
+                        string += str()
+                print(string)
+                
+    
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
     data = input()
-    data1 = list(info1)
+    data1 = list(data)
     j = 0
     try:
-        validInput(info)
+        validInput(data1)
         while(j<81):
             row = []
             for k in range(0,9):
