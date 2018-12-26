@@ -48,5 +48,5 @@ sudoku2.py:61:4: W0612: Unused variable 'data' (unused-variable)
 sudoku2.py:68:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.75/10 (previous run: -0.59/10, -2.16)
+Your code has been rated at -2.75/10 (previous run: -2.75/10, +0.00)
 
