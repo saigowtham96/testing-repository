@@ -54,9 +54,9 @@ def main():
                 j += 1
              sudoku.append(row)
         validInput(data1)
-        validSudoku(sudoku)
+        validateSudoku(sudoku)
         possibilites(sudoku)
     except Exception as e:
         print(e)
-
-
+if __name__ == '__main__':
+    main()
