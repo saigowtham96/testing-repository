@@ -47,7 +47,7 @@ def main():
     info = list(info1)
     j = 0
     try:
-        while(i <81):
+        while(j <81):
             row = []
             for k in range(0,9):
                 row.append(info[j])
