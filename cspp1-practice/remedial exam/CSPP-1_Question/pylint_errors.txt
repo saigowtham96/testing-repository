@@ -51,11 +51,10 @@ sudoku2.py:63:16: W0621: Redefining name 'i' from outer scope (line 55) (redefin
 sudoku2.py:72:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku2.py:73:0: C0111: Missing function docstring (missing-docstring)
 sudoku2.py:90:11: W0703: Catching too general exception Exception (broad-except)
-sudoku2.py:88:8: E0602: Undefined variable 'validSudoku' (undefined-variable)
 sudoku2.py:89:8: E0602: Undefined variable 'possibilites' (undefined-variable)
 sudoku2.py:90:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 sudoku2.py:83:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.69/10 (previous run: -2.75/10, -1.94)
+Your code has been rated at -3.91/10 (previous run: -4.69/10, +0.78)
 

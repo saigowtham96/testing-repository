@@ -85,7 +85,7 @@ def main():
                 i = i + 1
             sudoku.append(row)
         validInput(data1)
-        validSudoku(sudoku)
+        validateSudoku(sudoku)
         possibilites(sudoku)
     except Exception as e:
         print(e)
