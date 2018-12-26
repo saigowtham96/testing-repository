@@ -8,11 +8,13 @@ In this method :
  * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
 	raise an exception
 """
-def validateSudoku(sudoku):
-        if len(given_input) != 81:
+def validinput(data1):
+        if len(data1) != 81:
                 raise Exception("Invalid input")
-        elif '.' not in given_input:
+        elif '.' not in data1:
                 raise Exception("Given sudoku is solved")
+def validSudoku(sudoku):
+        pass
         
 	
 """
