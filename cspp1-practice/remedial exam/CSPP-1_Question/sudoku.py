@@ -11,44 +11,28 @@ In this method :
 def validateSudoku(sudoku):
         if len(given_input) != 81:
                 raise Exception("Invalid input")
-        elif '.' not in data:
+        elif '.' not in given_input:
                 raise Exception("Given sudoku is solved")
-        
-        
-        
-        
         
 	
 """
 This  method should retunn all the values present in the xth row
 """
 def getRowValues(row):
-        list1 = set()
-        for i in range(9):
-                for j in range(9):
-                        if row[i][j] != '0':
-                                list1.append(row[i][j])
-        return list1
-         
-	
+        pass
+         	
 """
 This  method should retunn all the values present in the ith column
 """
 def getColumnValues(col):
-        list2 = set()
-        for i in range(9):
-                for j in range(9):
-                        if col[i][j] != '0':
-                                list2.append(col[i][j])
-        return list2
-
+        pass
 
 """
 This  method should retunn all the values present in the x,j th subgrid
 """
 def getGridValues(grid):
-        for i in range(9):
-                print(grid[i])
+        pass
+
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
@@ -61,15 +45,16 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-        grid = [[0 for x in range(9)] for y in range(9)]
-        given_input = str(input())
+        grid = [[0 for x in range(9)]for y in range(9)]
+        given_input = input()
         k = 0
         for i in range(9):
                 for j in range(9):
-                                grid[i][j] = given_input[k]
-                                k = k+1
-        print(getGridValues(grid))
-        print(validateSudoku(given_input))
+                        grid[i][j] = given_input[k]
+                        k = k+1
+        print(validatesudoku(given_input))
+        
+        
 
         
                                 
