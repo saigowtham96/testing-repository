@@ -44,7 +44,7 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
 	info1 = input()
-    info = list(info1)
+    info  = list(info1)
     j = 0
     try:
         while(j <81):
