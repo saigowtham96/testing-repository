@@ -11,6 +11,8 @@ In this method :
 def validateSudoku(sudoku):
         if len(given_input) != 81:
                 raise Exception("Invalid input")
+        elif '.' not in data:
+        raise Exception("Given sudoku is solved")
         
         
         
@@ -64,6 +66,7 @@ def main():
         k = 0
         for i in range(9):
                 for j in range(9):
+                        if given_input[k] = '.':
                                 grid[i][j] = given_input[k]
                                 k = k+1
         print(getGridValues(grid))
