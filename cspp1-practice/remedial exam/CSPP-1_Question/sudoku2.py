@@ -79,7 +79,7 @@ def main():
         while(j<81):
             row = []
             for k in range(0,9):
-                row.append(data)
+                row.append(data[j])
                 j += 1
             sudoku.append(row)
         validateSudoku(sudoku)
