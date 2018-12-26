@@ -74,12 +74,13 @@ def main():
     data = input()
     data1 = list(data)
     j = 0
+    sudoku = []
     try:
         validInput(data1)
         while(j<81):
             row = []
             for k in range(0,9):
-                row.append(data1[j])
+                row.append(data[j])
                 j += 1
             sudoku.append(row)
         validateSudoku(sudoku)
