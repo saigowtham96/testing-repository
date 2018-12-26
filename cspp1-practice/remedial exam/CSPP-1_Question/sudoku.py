@@ -14,7 +14,13 @@ def validinput(data1):
         elif '.' not in data1:
                 raise Exception("Given sudoku is solved")
 def validSudoku(sudoku):
-        pass
+        for x in range(0,9):
+                var = getRowValues(x, sudoku)
+                if len(set(var)) != len(var):
+                        raise Exception("duplicates are present")
+                columvar = getColumn(cell, sudoku)
+                if len(set(columnvar)) != len(columnvar):
+                        raise Exception("duplicates are present")
         
 	
 """
@@ -31,7 +37,11 @@ def getRowValues(cell, sudoku):
 This  method should retunn all the values present in the ith column
 """
 def getColumnValues(cell, sudoku):
-        pass
+        column = []
+        for row in sudoku[cell]:
+                if row[cell]! ='.':
+                        column.append(row[cell])
+        return column
 
 """
 This  method should retunn all the values present in the x,j th subgrid
