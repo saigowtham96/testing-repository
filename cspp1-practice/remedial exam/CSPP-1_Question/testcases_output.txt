@@ -1,9 +1,14 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-Given sudoku is solved
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,7 +24,12 @@ Expected Output:
 7
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -35,7 +45,12 @@ Expected Output:
 9
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -45,7 +60,12 @@ Expected Output:
 2
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -55,7 +75,12 @@ Expected Output:
 9
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -71,7 +96,12 @@ Expected Output:
 5
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -87,7 +117,12 @@ Expected Output:
 3
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -103,7 +138,12 @@ Expected Output:
 9
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -119,7 +159,12 @@ Expected Output:
 6
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -135,7 +180,12 @@ Expected Output:
 4
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -151,7 +201,12 @@ Expected Output:
 8
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -167,7 +222,12 @@ Expected Output:
 4
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -183,7 +243,12 @@ Expected Output:
 8
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -199,7 +264,12 @@ Expected Output:
 4
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -224,7 +294,12 @@ Expected Output:
 4
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -263,7 +338,12 @@ Expected Output:
 23689
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -271,7 +351,12 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -279,7 +364,12 @@ Expected Output:
 Invalid input
 
 Your Output: 
-list index out of range
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -287,7 +377,12 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -358,7 +453,12 @@ Expected Output:
 23689
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -366,7 +466,12 @@ Expected Output:
 Invalid input
 
 Your Output: 
-list index out of range
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -424,7 +529,12 @@ Expected Output:
 1346
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -489,7 +599,12 @@ Expected Output:
 4567
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -520,7 +635,12 @@ Expected Output:
 6
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -564,6 +684,11 @@ Expected Output:
 19
 
 Your Output: 
-name 'row' is not defined
+Traceback (most recent call last):
+  File "sudoku2.py", line 76, in <module>
+    main()
+  File "sudoku2.py", line 62, in main
+    data1 = list(info1)
+NameError: name 'info1' is not defined
 ----------------------------------------
 

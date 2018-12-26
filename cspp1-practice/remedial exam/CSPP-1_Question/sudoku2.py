@@ -8,10 +8,10 @@ In this method :
  * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
     raise an exception
 """
-def validInput(data):
-    if len(data) != 81:
+def validInput(data1):
+    if len(data1) != 81:
         raise Exception("Invalid input")
-    elif '.' not in data:
+    elif '.' not in data1:
         raise Exception("Given sudoku is solved")
 def validateSudoku(sudoku):
     for x in range(0,9):
@@ -52,45 +52,25 @@ You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues():
-    for i in range(len(sudoku)):
-        for j in range(len(sudoku)):
-            if sudoku[i][j] == '.':
-                rowval = getRow(i, sudoku)
-                colval = getColumn(j, sudoku)
-                newinfo = rowval+colval
-                print(newinfo)
-                string = ""
-                for i in range(1, 10):
-                    if str(i) not in newinfo:
-                        string += str(i)
-                print(string)
-                
-    
+    pass
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-    data1 = input()
-    data = list(data1)
-    # print(data)
-    i = 0
-    sudoku =[]
-
+    data = input()
+    data1 = list(info1)
+    j = 0
     try:
-        while(i < 81):
+        validInput(info)
+        while(j<81):
             row = []
             for k in range(0,9):
-                row.append(data[i])
-                i = i + 1
+                row.append(data1)
+                j += 1
             sudoku.append(row)
-        validInput(data1)
         validateSudoku(sudoku)
-        possibilites(sudoku)
     except Exception as e:
         print(e)
-    # print(sudoku)
-
-    
 if __name__ == '__main__':
     main()

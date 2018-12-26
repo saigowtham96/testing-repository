@@ -4,16 +4,13 @@ sudoku2.py:17:20: C0326: Exactly one space required after comma
                     ^ (bad-whitespace)
 sudoku2.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku2.py:33:14: C0303: Trailing whitespace (trailing-whitespace)
-sudoku2.py:67:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku2.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku2.py:78:11: C0326: Exactly one space required after assignment
-    sudoku =[]
-           ^ (bad-whitespace)
-sudoku2.py:81:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-sudoku2.py:83:28: C0326: Exactly one space required after comma
+sudoku2.py:66:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+sudoku2.py:66:15: C0326: Exactly one space required around comparison
+        while(j<81):
+               ^ (bad-whitespace)
+sudoku2.py:68:28: C0326: Exactly one space required after comma
             for k in range(0,9):
                             ^ (bad-whitespace)
-sudoku2.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku2.py:11:0: C0103: Function name "validInput" doesn't conform to snake_case naming style (invalid-name)
 sudoku2.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku2.py:16:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
@@ -39,22 +36,17 @@ sudoku2.py:47:0: C0111: Missing function docstring (missing-docstring)
 sudoku2.py:53:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku2.py:54:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku2.py:54:0: C0111: Missing function docstring (missing-docstring)
-sudoku2.py:55:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-sudoku2.py:55:23: E0602: Undefined variable 'sudoku' (undefined-variable)
-sudoku2.py:56:27: E0602: Undefined variable 'sudoku' (undefined-variable)
-sudoku2.py:57:15: E0602: Undefined variable 'sudoku' (undefined-variable)
-sudoku2.py:58:25: E0602: Undefined variable 'getRow' (undefined-variable)
-sudoku2.py:58:35: E0602: Undefined variable 'sudoku' (undefined-variable)
-sudoku2.py:59:25: E0602: Undefined variable 'getColumn' (undefined-variable)
-sudoku2.py:59:38: E0602: Undefined variable 'sudoku' (undefined-variable)
-sudoku2.py:63:16: W0621: Redefining name 'i' from outer scope (line 55) (redefined-outer-name)
-sudoku2.py:72:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku2.py:73:0: C0111: Missing function docstring (missing-docstring)
-sudoku2.py:90:11: W0703: Catching too general exception Exception (broad-except)
-sudoku2.py:89:8: E0602: Undefined variable 'possibilites' (undefined-variable)
-sudoku2.py:90:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku2.py:83:16: W0612: Unused variable 'k' (unused-variable)
+sudoku2.py:59:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku2.py:60:0: C0111: Missing function docstring (missing-docstring)
+sudoku2.py:62:17: E0602: Undefined variable 'info1' (undefined-variable)
+sudoku2.py:73:11: W0703: Catching too general exception Exception (broad-except)
+sudoku2.py:65:19: E0602: Undefined variable 'info' (undefined-variable)
+sudoku2.py:71:12: E0602: Undefined variable 'sudoku' (undefined-variable)
+sudoku2.py:72:23: E0602: Undefined variable 'sudoku' (undefined-variable)
+sudoku2.py:73:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku2.py:61:4: W0612: Unused variable 'data' (unused-variable)
+sudoku2.py:68:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.91/10 (previous run: -3.91/10, +0.00)
+Your code has been rated at -2.75/10 (previous run: -3.91/10, +1.16)
 
