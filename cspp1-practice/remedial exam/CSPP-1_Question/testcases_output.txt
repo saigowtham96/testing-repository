@@ -6,7 +6,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -25,7 +25,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -44,7 +44,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -57,7 +57,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -70,7 +70,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -89,7 +89,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -108,7 +108,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -127,7 +127,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -146,7 +146,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -165,7 +165,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -184,7 +184,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -203,7 +203,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -222,7 +222,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -241,7 +241,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -269,7 +269,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -311,7 +311,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -322,7 +322,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -333,7 +333,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -344,7 +344,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -418,7 +418,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -429,7 +429,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -490,7 +490,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -558,7 +558,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -592,7 +592,7 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -639,6 +639,6 @@ Your Output:
   File "sudoku2.py", line 47
     info = list(info1)
                      ^
-TabError: inconsistent use of tabs and spaces in indentation
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
