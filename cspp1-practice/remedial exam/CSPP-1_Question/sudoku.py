@@ -20,13 +20,17 @@ def validSudoku(sudoku):
 """
 This  method should retunn all the values present in the xth row
 """
-def getRowValues(row):
-        pass
+def getRowValues(cell, sudoku):
+        row = []
+        for x in sudoku[cell]:
+                if a != '.':
+                        row.append(a)
+        return row
          	
 """
 This  method should retunn all the values present in the ith column
 """
-def getColumnValues(col):
+def getColumnValues(cell, sudoku):
         pass
 
 """
