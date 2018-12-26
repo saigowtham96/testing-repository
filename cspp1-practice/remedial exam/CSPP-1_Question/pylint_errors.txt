@@ -1,2 +1,2 @@
 ************* Module sudoku2
-sudoku2.py:57:0: E0001: invalid syntax (<unknown>, line 57) (syntax-error)
+sudoku2.py:64:0: E0001: invalid syntax (<unknown>, line 64) (syntax-error)

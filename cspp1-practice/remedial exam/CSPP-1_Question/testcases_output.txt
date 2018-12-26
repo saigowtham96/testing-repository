@@ -3,9 +3,9 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -22,9 +22,9 @@ Expected Output:
 7
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -41,9 +41,9 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -54,9 +54,9 @@ Expected Output:
 2
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -67,9 +67,9 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -86,9 +86,9 @@ Expected Output:
 5
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -105,9 +105,9 @@ Expected Output:
 3
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -124,9 +124,9 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -143,9 +143,9 @@ Expected Output:
 6
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -162,9 +162,9 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -181,9 +181,9 @@ Expected Output:
 8
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -200,9 +200,9 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -219,9 +219,9 @@ Expected Output:
 8
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -238,9 +238,9 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -266,9 +266,9 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -308,9 +308,9 @@ Expected Output:
 23689
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -319,9 +319,9 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -330,9 +330,9 @@ Expected Output:
 Invalid input
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -341,9 +341,9 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -415,9 +415,9 @@ Expected Output:
 23689
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -426,9 +426,9 @@ Expected Output:
 Invalid input
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -487,9 +487,9 @@ Expected Output:
 1346
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -555,9 +555,9 @@ Expected Output:
 4567
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -589,9 +589,9 @@ Expected Output:
 6
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
@@ -636,9 +636,9 @@ Expected Output:
 19
 
 Your Output: 
-  File "sudoku2.py", line 57
-    if sudoku[i][j] = '.':
-                    ^
+  File "sudoku2.py", line 64
+    if str(i) in new data:
+                        ^
 SyntaxError: invalid syntax
 ----------------------------------------
 
