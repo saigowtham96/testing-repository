@@ -18,13 +18,13 @@ sudoku.py:52:0: W0311: Bad indentation. Found 16 spaces, expected 8 (bad-indenta
 sudoku.py:53:0: W0311: Bad indentation. Found 24 spaces, expected 12 (bad-indentation)
 sudoku.py:54:0: W0311: Bad indentation. Found 24 spaces, expected 12 (bad-indentation)
 sudoku.py:55:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-sudoku.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:58:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:60:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:61:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:64:0: C0305: Trailing newlines (trailing-newlines)
+sudoku.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:66:0: C0305: Trailing newlines (trailing-newlines)
 sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:12:15: E0602: Undefined variable 'given_input' (undefined-variable)
@@ -47,8 +47,7 @@ sudoku.py:41:0: C0103: Function name "possibleValues" doesn't conform to snake_c
 sudoku.py:41:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:46:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:47:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:55:14: E0602: Undefined variable 'validatesudoku' (undefined-variable)
 
 ---------------------------------------------------------------------
-Your code has been rated at -12.59/10 (previous run: -9.75/10, -2.84)
+Your code has been rated at -9.31/10 (previous run: -12.59/10, +3.28)
 

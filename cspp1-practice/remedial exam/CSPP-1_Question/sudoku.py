@@ -52,7 +52,9 @@ def main():
                 for j in range(9):
                         grid[i][j] = given_input[k]
                         k = k+1
-        print(validatesudoku(given_input))
+        print(validateSudoku(given_input))
+if __name__ == '__main__':
+    main()
         
         
 
