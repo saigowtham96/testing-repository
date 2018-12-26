@@ -12,7 +12,7 @@ def validateSudoku(sudoku):
         if len(given_input) != 81:
                 raise Exception("Invalid input")
         elif '.' not in data:
-        raise Exception("Given sudoku is solved")
+                raise Exception("Given sudoku is solved")
         
         
         

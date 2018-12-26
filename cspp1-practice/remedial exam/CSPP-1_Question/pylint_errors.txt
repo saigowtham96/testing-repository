@@ -1,2 +1,2 @@
 ************* Module sudoku
-sudoku.py:15:0: E0001: expected an indented block (<unknown>, line 15) (syntax-error)
+sudoku.py:69:0: E0001: invalid syntax (<unknown>, line 69) (syntax-error)
