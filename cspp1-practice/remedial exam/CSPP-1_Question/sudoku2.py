@@ -44,19 +44,18 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
 	info1 = input()
-    info  = list(info1)
-    j = 0
-    try:
-        while(j <81):
-            row = []
-            for k in range(0,9):
-                row.append(info[j])
-                j += 1
-             sudoku.append(row)
-        validInput(data1)
+	info = list(info1)
+	j = 0
+	try:
+		validInput(info)
+		while(j<81):
+			row = []
+			for k in range(0,9):
+				row.append(info)
+				j += 1
+			sudoku.append(row)
         validateSudoku(sudoku)
-        possibilites(sudoku)
     except Exception as e:
-        print(e)
+    	print(e)
 if __name__ == '__main__':
     main()

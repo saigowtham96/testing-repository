@@ -1,2 +1,2 @@
 ************* Module sudoku2
-sudoku2.py:47:0: E0001: unindent does not match any outer indentation level (<unknown>, line 47) (syntax-error)
+sudoku2.py:57:0: E0001: inconsistent use of tabs and spaces in indentation (<unknown>, line 57) (syntax-error)
