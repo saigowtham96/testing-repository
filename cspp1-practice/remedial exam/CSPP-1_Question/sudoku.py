@@ -39,7 +39,7 @@ This  method should retunn all the values present in the ith column
 def getColumnValues(cell, sudoku):
         column = []
         for row in sudoku[cell]:
-                if row[cell]! ='.':
+                if row[cell]!= '.':
                         column.append(row[cell])
         return column
 
