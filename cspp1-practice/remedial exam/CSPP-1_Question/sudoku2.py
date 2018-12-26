@@ -47,16 +47,16 @@ def main():
         info = list(info1)
         j = 0
         try:
-                while(i <81):
-                        row = []
-                        for k in range(0,9):
-                                row.append(info[j])
-                                j += 1
-                        sudoku.append(row)
-                        validInput(data1)
-        validSudoku(sudoku)
-        possibilites(sudoku)
-    except Exception as e:
-        print(e)
+            while(i <81):
+                row = []
+                for k in range(0,9):
+                	row.append(info[j])
+                	j += 1
+                sudoku.append(row)
+            validInput(data1)
+        	validSudoku(sudoku)
+        	possibilites(sudoku)
+    	except Exception as e:
+        	print(e)
 
 
