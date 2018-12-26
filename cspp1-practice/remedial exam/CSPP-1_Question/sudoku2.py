@@ -61,7 +61,7 @@ def possibleValues():
                 print(newinfo)
                 string = ""
                 for i in range(1, 10):
-                    if str(i) not in new data:
+                    if str(i) not in newinfo:
                         string += str(i)
                 print(string)
                 
