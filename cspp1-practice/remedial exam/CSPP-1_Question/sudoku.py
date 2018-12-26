@@ -45,14 +45,21 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-        grid = [[0 for x in range(9)]for y in range(9)]
-        given_input = input()
-        k = 0
-        for i in range(9):
-                for j in range(9):
-                        grid[i][j] = given_input[k]
-                        k = k+1
-        print(validateSudoku(given_input))
+        data = input()
+        data1 = list(data)
+        j = 0
+        sudoku = []
+        try:
+                while(j < 81):
+                        row = []
+                        for k in range(0,9):
+                                row.append(data1[j])
+                                j = j+1
+                        sudoku.append(row)
+                validinput(data)
+                validateSudoku(sudoku)
+        except Exception as e:
+                print(e)
 if __name__ == '__main__':
     main()
         

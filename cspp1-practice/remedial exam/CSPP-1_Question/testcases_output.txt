@@ -3,14 +3,7 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -26,14 +19,7 @@ Expected Output:
 7
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -49,14 +35,7 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -66,14 +45,7 @@ Expected Output:
 2
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -83,14 +55,7 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -106,14 +71,7 @@ Expected Output:
 5
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -129,14 +87,7 @@ Expected Output:
 3
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -152,14 +103,7 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -175,14 +119,7 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -198,14 +135,7 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -221,14 +151,7 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -244,14 +167,7 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -267,14 +183,7 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -290,14 +199,7 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -322,14 +224,7 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -368,14 +263,7 @@ Expected Output:
 23689
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -383,14 +271,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -398,12 +279,7 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 53, in main
-    grid[i][j] = given_input[k]
-IndexError: string index out of range
+list index out of range
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -411,14 +287,7 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -489,14 +358,7 @@ Expected Output:
 23689
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -504,12 +366,7 @@ Expected Output:
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 53, in main
-    grid[i][j] = given_input[k]
-IndexError: string index out of range
+list index out of range
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -567,14 +424,7 @@ Expected Output:
 1346
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -639,14 +489,7 @@ Expected Output:
 4567
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -677,14 +520,7 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -728,13 +564,6 @@ Expected Output:
 19
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 57, in <module>
-    main()
-  File "sudoku.py", line 55, in main
-    print(validateSudoku(given_input))
-  File "sudoku.py", line 12, in validateSudoku
-    if len(given_input) != 81:
-NameError: name 'given_input' is not defined
+name 'validinput' is not defined
 ----------------------------------------
 
