@@ -27,7 +27,7 @@ sudoku2.py:37:0: C0103: Function name "getColumnValues" doesn't conform to snake
 sudoku2.py:37:0: C0111: Missing function docstring (missing-docstring)
 sudoku2.py:39:8: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
 sudoku2.py:40:11: E0602: Undefined variable 'row' (undefined-variable)
-sudoku2.py:41:23: E0602: Undefined variable 'row' (undefined-variable)
+sudoku2.py:41:26: E0602: Undefined variable 'row' (undefined-variable)
 sudoku2.py:37:26: W0613: Unused argument 'sudoku' (unused-argument)
 sudoku2.py:39:8: W0612: Unused variable 'y' (unused-variable)
 sudoku2.py:46:-1: W0105: String statement has no effect (pointless-string-statement)
@@ -38,12 +38,15 @@ sudoku2.py:54:0: C0103: Function name "possibleValues" doesn't conform to snake_
 sudoku2.py:54:0: C0111: Missing function docstring (missing-docstring)
 sudoku2.py:59:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku2.py:60:0: C0111: Missing function docstring (missing-docstring)
+sudoku2.py:62:17: E0602: Undefined variable 'info1' (undefined-variable)
 sudoku2.py:73:11: W0703: Catching too general exception Exception (broad-except)
+sudoku2.py:65:19: E0602: Undefined variable 'info' (undefined-variable)
 sudoku2.py:71:12: E0602: Undefined variable 'sudoku' (undefined-variable)
 sudoku2.py:72:23: E0602: Undefined variable 'sudoku' (undefined-variable)
 sudoku2.py:73:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku2.py:61:4: W0612: Unused variable 'data' (unused-variable)
 sudoku2.py:68:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -0.59/10 (previous run: -0.59/10, +0.00)
+Your code has been rated at -2.75/10 (previous run: -0.59/10, -2.16)
 

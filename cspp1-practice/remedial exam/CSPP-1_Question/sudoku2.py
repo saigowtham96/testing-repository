@@ -8,10 +8,10 @@ In this method :
  * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
     raise an exception
 """
-def validInput(info):
-    if len(info) != 81:
+def validInput(data1):
+    if len(data1) != 81:
         raise Exception("Invalid input")
-    elif '.' not in info:
+    elif '.' not in data1:
         raise Exception("Given sudoku is solved")
 def validateSudoku(sudoku):
     for x in range(0,9):
@@ -35,11 +35,11 @@ def getRowValues(cell, sudoku):
 This  method should retunn all the values present in the ith column
 """
 def getColumnValues(cell, sudoku):
-    col = []
+    column = []
     for y in range(cell):
         if row[cell] != '.':
-            col.append(row[cell])
-    return col
+            column.append(row[cell])
+    return column
 
 """
 This  method should retunn all the values present in the i,j th subgrid
@@ -58,15 +58,15 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-    info1 = input()
-    info = list(info1)
+    data = input()
+    data1 = list(info1)
     j = 0
     try:
         validInput(info)
         while(j<81):
             row = []
             for k in range(0,9):
-                row.append(info)
+                row.append(data1)
                 j += 1
             sudoku.append(row)
         validateSudoku(sudoku)
