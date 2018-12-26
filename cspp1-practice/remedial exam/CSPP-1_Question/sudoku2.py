@@ -62,7 +62,7 @@ def possibleValues():
                 string = ""
                 for i in range(1, 10):
                     if str(i) not in new data:
-                        string += str()
+                        string += str(i)
                 print(string)
                 
     
