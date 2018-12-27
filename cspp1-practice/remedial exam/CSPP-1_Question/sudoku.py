@@ -46,12 +46,7 @@ def getColumnValues(cell, sudoku):
 This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i,j,sudoku):
-        
-"""
-This method should collect all the available values present for a "."
-You should get the values present in row,column,grid.
-Then you should return the values that doesnot exist in the previous values.
-"""
+
 def possibleValues(sudoku):
     for x in range(len(sudoku)):
         for y in range(len(sudoku[0])):
@@ -71,11 +66,11 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
     data1= input()
-    data=list(input_data)
+    data=list(data1)
     j=0
     sudoku=[]
     try:
-        validateInput(input_data)
+        validateInput(data1)
         while (j < 81):
             row=[]
             for k in range(9):
@@ -84,7 +79,7 @@ def main():
             sudoku.append(row)
         validateSudoku(sudoku)
         possibleValues(sudoku)
-        getGridValues(i,j,sudoku)
+        # getGridValues(i,j,sudoku)
     except Exception as e:
         print(e)
     # print(sudoku)
