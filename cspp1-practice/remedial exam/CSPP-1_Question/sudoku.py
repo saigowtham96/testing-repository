@@ -46,7 +46,7 @@ def getColumnValues(cell, sudoku):
 This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i,j,sudoku):
-
+    pass
 def possibleValues(sudoku):
     for x in range(len(sudoku)):
         for y in range(len(sudoku[0])):
