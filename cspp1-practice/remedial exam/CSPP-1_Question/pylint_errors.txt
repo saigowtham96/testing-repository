@@ -1,2 +1,182 @@
 ************* Module sudoku
-sudoku.py:59:0: E0001: invalid syntax (<unknown>, line 59) (syntax-error)
+sudoku.py:19:15: C0326: Exactly one space required around assignment
+        row_var=getRowValues(x,sudoku)
+               ^ (bad-whitespace)
+sudoku.py:19:30: C0326: Exactly one space required after comma
+        row_var=getRowValues(x,sudoku)
+                              ^ (bad-whitespace)
+sudoku.py:22:18: C0326: Exactly one space required around assignment
+        column_var=getColumnValues(x,sudoku)
+                  ^ (bad-whitespace)
+sudoku.py:22:36: C0326: Exactly one space required after comma
+        column_var=getColumnValues(x,sudoku)
+                                    ^ (bad-whitespace)
+sudoku.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:28:7: C0326: Exactly one space required around assignment
+    row=[]
+       ^ (bad-whitespace)
+sudoku.py:38:10: C0326: Exactly one space required around assignment
+    column=[]
+          ^ (bad-whitespace)
+sudoku.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:48:19: C0326: Exactly one space required after comma
+def getGridValues(i,j,sudoku):
+                   ^ (bad-whitespace)
+sudoku.py:48:21: C0326: Exactly one space required after comma
+def getGridValues(i,j,sudoku):
+                     ^ (bad-whitespace)
+sudoku.py:51:25: C0326: Exactly one space required after comma
+    for subrow in range(0,3):
+                         ^ (bad-whitespace)
+sudoku.py:52:29: C0326: Exactly one space required after comma
+        for subcol in range(0,3):
+                             ^ (bad-whitespace)
+sudoku.py:60:25: C0326: Exactly one space required after comma
+    for subrow in range(0,3):
+                         ^ (bad-whitespace)
+sudoku.py:61:29: C0326: Exactly one space required after comma
+        for subcol in range(3,6):
+                             ^ (bad-whitespace)
+sudoku.py:69:25: C0326: Exactly one space required after comma
+    for subrow in range(0,3):
+                         ^ (bad-whitespace)
+sudoku.py:70:29: C0326: Exactly one space required after comma
+        for subcol in range(6,9):
+                             ^ (bad-whitespace)
+sudoku.py:78:25: C0326: Exactly one space required after comma
+    for subrow in range(3,6):
+                         ^ (bad-whitespace)
+sudoku.py:79:29: C0326: Exactly one space required after comma
+        for subcol in range(0,3):
+                             ^ (bad-whitespace)
+sudoku.py:87:25: C0326: Exactly one space required after comma
+    for subrow in range(3,6):
+                         ^ (bad-whitespace)
+sudoku.py:88:29: C0326: Exactly one space required after comma
+        for subcol in range(3,6):
+                             ^ (bad-whitespace)
+sudoku.py:97:25: C0326: Exactly one space required after comma
+    for subrow in range(3,6):
+                         ^ (bad-whitespace)
+sudoku.py:98:29: C0326: Exactly one space required after comma
+        for subcol in range(6,9):
+                             ^ (bad-whitespace)
+sudoku.py:106:25: C0326: Exactly one space required after comma
+    for subrow in range(6,9):
+                         ^ (bad-whitespace)
+sudoku.py:107:29: C0326: Exactly one space required after comma
+        for subcol in range(0,3):
+                             ^ (bad-whitespace)
+sudoku.py:115:25: C0326: Exactly one space required after comma
+    for subrow in range(6,9):
+                         ^ (bad-whitespace)
+sudoku.py:116:29: C0326: Exactly one space required after comma
+        for subcol in range(3,6):
+                             ^ (bad-whitespace)
+sudoku.py:124:25: C0326: Exactly one space required after comma
+    for subrow in range(6,9):
+                         ^ (bad-whitespace)
+sudoku.py:125:29: C0326: Exactly one space required after comma
+        for subcol in range(6,9):
+                             ^ (bad-whitespace)
+sudoku.py:132:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:139:27: C0326: Exactly one space required around comparison
+            if sudoku[x][y]=='.':
+                           ^^ (bad-whitespace)
+sudoku.py:140:23: C0326: Exactly one space required around assignment
+                row_var=getRowValues(x,sudoku)
+                       ^ (bad-whitespace)
+sudoku.py:140:38: C0326: Exactly one space required after comma
+                row_var=getRowValues(x,sudoku)
+                                      ^ (bad-whitespace)
+sudoku.py:141:26: C0326: Exactly one space required around assignment
+                column_var=getColumnValues(y,sudoku)
+                          ^ (bad-whitespace)
+sudoku.py:141:44: C0326: Exactly one space required after comma
+                column_var=getColumnValues(y,sudoku)
+                                            ^ (bad-whitespace)
+sudoku.py:142:38: C0326: Exactly one space required after comma
+                grid = getGridValues(x,y,sudoku)
+                                      ^ (bad-whitespace)
+sudoku.py:142:40: C0326: Exactly one space required after comma
+                grid = getGridValues(x,y,sudoku)
+                                        ^ (bad-whitespace)
+sudoku.py:143:22: C0326: Exactly one space required around assignment
+                result=row_var+column_var+grid
+                      ^ (bad-whitespace)
+sudoku.py:144:24: C0326: Exactly one space required around assignment
+                elements=''
+                        ^ (bad-whitespace)
+sudoku.py:145:32: C0326: Exactly one space required after comma
+                for i in range(1,10):
+                                ^ (bad-whitespace)
+sudoku.py:147:32: C0326: Exactly one space required around assignment
+                        elements=elements+str(i)
+                                ^ (bad-whitespace)
+sudoku.py:149:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:155:9: C0326: Exactly one space required before assignment
+    data1= input()
+         ^ (bad-whitespace)
+sudoku.py:156:8: C0326: Exactly one space required around assignment
+    data=list(data1)
+        ^ (bad-whitespace)
+sudoku.py:157:5: C0326: Exactly one space required around assignment
+    j=0
+     ^ (bad-whitespace)
+sudoku.py:158:10: C0326: Exactly one space required around assignment
+    sudoku=[]
+          ^ (bad-whitespace)
+sudoku.py:161:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+sudoku.py:162:15: C0326: Exactly one space required around assignment
+            row=[]
+               ^ (bad-whitespace)
+sudoku.py:165:17: C0326: Exactly one space required around assignment
+                j=j+1
+                 ^ (bad-whitespace)
+sudoku.py:170:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:174:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:178:0: C0305: Trailing newlines (trailing-newlines)
+sudoku.py:12:0: C0103: Function name "validateInput" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:12:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:18:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:27:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:27:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:29:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:36:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:37:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:37:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:47:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:48:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:48:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:55:35: W0631: Using possibly undefined loop variable 'subcol' (undefined-loop-variable)
+sudoku.py:56:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:65:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:74:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:83:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:92:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:102:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:109:23: E0602: Undefined variable 'true' (undefined-variable)
+sudoku.py:111:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:118:23: E0602: Undefined variable 'true' (undefined-variable)
+sudoku.py:120:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:129:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
+sudoku.py:48:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+sudoku.py:48:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+sudoku.py:48:0: R0912: Too many branches (36/12) (too-many-branches)
+sudoku.py:48:0: R0915: Too many statements (55/50) (too-many-statements)
+sudoku.py:136:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:136:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:137:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+sudoku.py:137:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:138:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:153:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:154:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:171:11: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:171:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:163:16: W0612: Unused variable 'k' (unused-variable)
+
+-------------------------------------------------------------------
+Your code has been rated at 3.03/10 (previous run: -3.84/10, +6.87)
+

@@ -56,7 +56,7 @@ def getGridValues(i,j,sudoku):
     if temp == True:
         return grid
     grid = []
-    if temp = False
+    temp = False
     for subrow in range(0,3):
         for subcol in range(3,6):
             if subrow == i and subcol == j:

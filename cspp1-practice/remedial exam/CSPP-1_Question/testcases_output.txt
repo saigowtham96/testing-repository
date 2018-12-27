@@ -1,12 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+Given sudoku is solved
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,10 +19,14 @@ Expected Output:
 7
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+7
+7
+7
+7
+7
+7
+7
+name 'true' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -41,39 +42,41 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1
+2
+3
+4
+5
+6
+7
+name 'true' is not defined
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 5
 6
 2
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+5
+6
+2
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+4
+6
+9
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 3
 7
@@ -86,10 +89,15 @@ Expected Output:
 5
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+3
+7
+4
+6
+8
+2
+9
+1
+5
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -105,13 +113,16 @@ Expected Output:
 3
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+2
+1
+8
+5
+7
+4
+name 'true' is not defined
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 7
 2
@@ -124,13 +135,18 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+7
+2
+6
+3
+1
+5
+4
+8
+9
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 1
 5
@@ -143,10 +159,15 @@ Expected Output:
 6
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1
+5
+2
+4
+8
+9
+3
+7
+6
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -162,10 +183,7 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+name 'true' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -181,13 +199,16 @@ Expected Output:
 8
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1
+7
+4
+3
+5
+2
+name 'true' is not defined
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 6
 1
@@ -200,13 +221,18 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+6
+1
+5
+9
+8
+3
+2
+7
+4
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 1
 5
@@ -219,13 +245,18 @@ Expected Output:
 8
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1
+5
+2
+7
+3
+9
+4
+6
+8
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 5
 8
@@ -238,13 +269,18 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+5
+8
+2
+1
+3
+7
+9
+6
+4
 ----------------------------------------
 
-########## Testcase 14: Failed ##########
+########## Testcase 14: Passed ##########
 Expected Output: 
 1
 5
@@ -266,10 +302,24 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1
+5
+2
+7
+3
+9
+4
+6
+8
+5
+8
+2
+1
+3
+7
+9
+6
+4
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -308,43 +358,50 @@ Expected Output:
 23689
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1235679
+13
+57
+6
+46
+57
+23
+89
+123456789
+3
+34
+27
+27
+15
+15
+17
+17
+59
+59
+name 'true' is not defined
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -415,21 +472,59 @@ Expected Output:
 23689
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+1679
+123679
+139
+23679
+12679
+1239
+26789
+1256789
+14589
+245679
+12456789
+12679
+12489
+1246789
+23689
+145689
+1235689
+234569
+1245689
+12369
+123489
+1234689
+3789
+135789
+134589
+34579
+145789
+13579
+134789
+23679
+15679
+1235679
+1359
+125679
+12359
+123679
+236789
+456789
+2356789
+34589
+2456789
+235679
+234589
+2346789
+name 'true' is not defined
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -487,10 +582,41 @@ Expected Output:
 1346
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+12469
+269
+12468
+14689
+1249
+248
+247
+2347
+3478
+234
+2478
+123
+237
+34
+1247
+13457
+247
+12457
+124579
+2579
+1247
+4579
+2459
+257
+25679
+5
+579
+259
+1458
+13459
+59
+148
+4589
+459
+name 'true' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -555,10 +681,46 @@ Expected Output:
 4567
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+23469
+23467
+124679
+23467
+13469
+23467
+12479
+2679
+4679
+245689
+24567
+469
+24678
+24789
+1367
+2368
+2367
+12678
+2367
+136
+367
+3456
+14567
+1345
+3457
+147
+23467
+24679
+23467
+349
+2347
+2479
+239
+349
+234589
+2345
+12459
+2345
+23458
+name 'true' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -589,10 +751,23 @@ Expected Output:
 6
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+2
+1
+5
+58
+68
+6
+67
+5
+4
+6
+69
+45
+469
+1
+7
+78
+name 'true' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -636,9 +811,30 @@ Expected Output:
 19
 
 Your Output: 
-  File "sudoku.py", line 59
-    if temp = False
-            ^
-SyntaxError: invalid syntax
+24
+346
+2346
+123
+1234
+458
+589
+9
+4
+8
+36
+138
+13
+8
+34
+36
+38
+35
+235
+23
+48
+234
+238
+38
+name 'true' is not defined
 ----------------------------------------
 
