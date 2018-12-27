@@ -127,7 +127,7 @@ def main():
             sudoku.append(row)
         validateSudoku(sudoku)
         possibleValues(sudoku)
-        # getGridValues(i,j,sudoku)
+        getGridValues(i,j,sudoku)
     except Exception as e:
         print(e)
     # print(sudoku)
