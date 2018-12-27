@@ -48,84 +48,84 @@ This  method should retunn all the values present in the i,j th subgrid
 def getGridValues(i,j,sudoku):
     grid = []
     temp = False
-        for subrow in range(0,3):
-            for subcol in range(0,3):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(0,3):
+        for subcol in range(0,3):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     if temp = False
-        for subrow in range(0,3):
-            for subcol in range(3,6):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(0,3):
+        for subcol in range(3,6):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     temp = False
-        for subrow in range(0,3):
-            for subcol in range(6,9):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(0,3):
+        for subcol in range(6,9):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     temp = False
-        for subrow in range(3,6):
-            for subcol in range(0,3):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(3,6):
+        for subcol in range(0,3):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     temp = False
-        for subrow in range(3,6):
-            for subcol in range(3,6):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(3,6):
+        for subcol in range(3,6):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
 
     grid = []
     temp = False
-        for subrow in range(3,6):
-            for subcol in range(6,9):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(3,6):
+        for subcol in range(6,9):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     temp = False
-        for subrow in range(6,9):
-            for subcol in range(0,3):
-                if subrow == i and subcol == j:
-                    temp = true
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(6,9):
+        for subcol in range(0,3):
+            if subrow == i and subcol == j:
+                temp = true
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     temp = False
-        for subrow in range(6,9):
-            for subcol in range(3,6):
-                if subrow == i and subcol == j:
-                    temp = true
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(6,9):
+        for subcol in range(3,6):
+            if subrow == i and subcol == j:
+                temp = true
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
     grid = []
     temp = False
-        for subrow in range(6,9):
-            for subcol in range(6,9):
-                if subrow == i and subcol == j:
-                    temp = True
-            grid.append(sudoku[subrow][subcol])
+    for subrow in range(6,9):
+        for subcol in range(6,9):
+            if subrow == i and subcol == j:
+                temp = True
+        grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
 
