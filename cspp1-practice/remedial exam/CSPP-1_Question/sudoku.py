@@ -47,7 +47,7 @@ This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i,j,sudoku):
     grid = []
-    temp = False:
+    temp = False
         for subrow in range(0,3):
             for subcol in range(0,3):
                 if subrow == i and subcol == j:
@@ -56,7 +56,7 @@ def getGridValues(i,j,sudoku):
     if temp == True:
         return grid
     grid = []
-    if temp = False:
+    if temp = False
         for subrow in range(0,3):
             for subcol in range(3,6):
                 if subrow == i and subcol == j:
