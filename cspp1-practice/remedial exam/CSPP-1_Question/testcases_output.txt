@@ -4,7 +4,7 @@ Given sudoku is solved
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -23,7 +23,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -42,7 +42,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -55,7 +55,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -68,7 +68,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -87,7 +87,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -106,7 +106,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -125,7 +125,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -144,7 +144,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -163,7 +163,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -182,7 +182,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -201,7 +201,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -220,7 +220,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -239,7 +239,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -267,7 +267,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -309,7 +309,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -320,7 +320,7 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -331,7 +331,7 @@ Invalid input
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -342,7 +342,7 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -416,7 +416,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -427,7 +427,7 @@ Invalid input
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -488,7 +488,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -556,7 +556,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -590,7 +590,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
@@ -637,7 +637,7 @@ Expected Output:
 
 Your Output: 
   File "sudoku.py", line 50
-    if temp = false:
+    if temp = False:
             ^
 SyntaxError: invalid syntax
 ----------------------------------------
