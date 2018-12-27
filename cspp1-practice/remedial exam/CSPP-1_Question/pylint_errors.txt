@@ -95,14 +95,14 @@ sudoku.py:141:26: C0326: Exactly one space required around assignment
 sudoku.py:141:44: C0326: Exactly one space required after comma
                 column_var=getColumnValues(y,sudoku)
                                             ^ (bad-whitespace)
-sudoku.py:142:38: C0326: Exactly one space required after comma
-                grid = getGridValues(x,y,sudoku)
-                                      ^ (bad-whitespace)
-sudoku.py:142:40: C0326: Exactly one space required after comma
-                grid = getGridValues(x,y,sudoku)
-                                        ^ (bad-whitespace)
+sudoku.py:142:41: C0326: Exactly one space required after comma
+                gridvar = getGridValues(x,y,sudoku)
+                                         ^ (bad-whitespace)
+sudoku.py:142:43: C0326: Exactly one space required after comma
+                gridvar = getGridValues(x,y,sudoku)
+                                           ^ (bad-whitespace)
 sudoku.py:143:22: C0326: Exactly one space required around assignment
-                result=row_var+column_var+grid
+                result=row_var+column_var+gridvar
                       ^ (bad-whitespace)
 sudoku.py:144:24: C0326: Exactly one space required around assignment
                 elements=''
@@ -176,5 +176,5 @@ sudoku.py:171:4: C0103: Variable name "e" doesn't conform to snake_case naming s
 sudoku.py:163:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.73/10 (previous run: 3.03/10, +0.70)
+Your code has been rated at 3.73/10 (previous run: 3.73/10, +0.00)
 

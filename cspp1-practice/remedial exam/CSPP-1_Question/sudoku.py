@@ -139,8 +139,8 @@ def possibleValues(sudoku):
             if sudoku[x][y]=='.':
                 row_var=getRowValues(x,sudoku)
                 column_var=getColumnValues(y,sudoku)
-                grid = getGridValues(x,y,sudoku)
-                result=row_var+column_var+grid
+                gridvar = getGridValues(x,y,sudoku)
+                result=row_var+column_var+gridvar
                 elements=''
                 for i in range(1,10):
                     if str(i) not in result:
