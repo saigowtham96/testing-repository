@@ -106,7 +106,7 @@ def getGridValues(i,j,sudoku):
     for subrow in range(6,9):
         for subcol in range(0,3):
             if subrow == i and subcol == j:
-                temp = true
+                temp = True
         grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid
@@ -115,7 +115,7 @@ def getGridValues(i,j,sudoku):
     for subrow in range(6,9):
         for subcol in range(3,6):
             if subrow == i and subcol == j:
-                temp = true
+                temp = True
         grid.append(sudoku[subrow][subcol])
     if temp == True:
         return grid

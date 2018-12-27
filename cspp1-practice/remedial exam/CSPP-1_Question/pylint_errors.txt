@@ -157,9 +157,7 @@ sudoku.py:74:7: C0121: Comparison to True should be just 'expr' or 'expr is True
 sudoku.py:83:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:92:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:102:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-sudoku.py:109:23: E0602: Undefined variable 'true' (undefined-variable)
 sudoku.py:111:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
-sudoku.py:118:23: E0602: Undefined variable 'true' (undefined-variable)
 sudoku.py:120:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:129:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:48:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
@@ -177,6 +175,6 @@ sudoku.py:171:11: W0703: Catching too general exception Exception (broad-except)
 sudoku.py:171:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:163:16: W0612: Unused variable 'k' (unused-variable)
 
--------------------------------------------------------------------
-Your code has been rated at 3.03/10 (previous run: -3.84/10, +6.87)
+------------------------------------------------------------------
+Your code has been rated at 3.73/10 (previous run: 3.03/10, +0.70)
 
