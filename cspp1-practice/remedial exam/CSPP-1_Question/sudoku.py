@@ -101,7 +101,7 @@ def possibleValues(sudoku):
             if sudoku[x][y]=='.':
                 row_var=getRowValues(x,sudoku)
                 column_var=getColumnValues(y,sudoku)
-                grid = getGridValues(j,k,sudoku)
+                grid = getGridValues(x,y,sudoku)
                 result=row_var+column_var+grid
                 elements=''
                 for i in range(1,10):
