@@ -9,10 +9,10 @@ In this method :
     raise an exception
 """
 
-def validateInput(data):
-    if len(data) != 81:
+def validateInput(data1):
+    if len(data1) != 81:
         raise Exception("Invalid input")
-    elif '.' not in data:
+    elif '.' not in data1:
         raise Exception("Given sudoku is solved")
 def validateSudoku(sudoku):
     for x in range(9):
@@ -71,11 +71,11 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
     data1= input()
-    data=list(input_data)
+    data=list(data1)
     j=0
     sudoku=[]
     try:
-        validateInput(input_data)
+        validateInput(data1)
         while (j < 81):
             row=[]
             for k in range(9):
