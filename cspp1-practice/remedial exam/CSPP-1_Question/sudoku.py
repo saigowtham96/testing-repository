@@ -46,7 +46,55 @@ def getColumnValues(cell, sudoku):
 This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i,j,sudoku):
-    pass
+    grid = []
+    if (i<=0 and i>3) and (j<0 and j>3):
+        for subrow in range(0,3):
+            for subcol in range(0,3):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=0 and i>3) and (j<3 and j>6):
+        for subrow in range(0,3):
+            for subcol in range(3,6):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=0 and i>3) and (j<6 and j>9):
+        for subrow in range(0,3):
+            for subcol in range(6,9):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=3 and i>6) and (j<0 and j>3):
+        for subrow in range(3,6):
+            for subcol in range(0,3):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=3 and i>6) and (j<3 and j>6):
+        for subrow in range(3,6):
+            for subcol in range(3,6):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=3 and i>6) and (j<6 and j>9):
+        for subrow in range(3,6):
+            for subcol in range(6,9):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=6 and i>9) and (j<0 and j>3):
+        for subrow in range(6,9):
+            for subcol in range(0,3):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=6 and i>9) and (j<3 and j>6):
+        for subrow in range(6,9):
+            for subcol in range(3,6):
+                grid.append(sudoku[subrow][subcol])
+    if (i<=6 and i>9) and (j<6 and j>9):
+        for subrow in range(6,9):
+            for subcol in range(6,9):
+                grid.append(sudoku[subrow][subcol])
+
+          
+    return grid      
+          
+          
+          
+          
+          
+          
+
+
+
 def possibleValues(sudoku):
     for x in range(len(sudoku)):
         for y in range(len(sudoku[0])):
