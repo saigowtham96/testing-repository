@@ -291,6 +291,6 @@ sudoku.py:128:11: W0703: Catching too general exception Exception (broad-except)
 sudoku.py:127:24: W0631: Using possibly undefined loop variable 'j' (undefined-loop-variable)
 sudoku.py:128:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
----------------------------------------------------------------------
-Your code has been rated at -3.10/10 (previous run: -11.54/10, +8.44)
+--------------------------------------------------------------------
+Your code has been rated at -3.10/10 (previous run: -3.10/10, +0.00)
 
