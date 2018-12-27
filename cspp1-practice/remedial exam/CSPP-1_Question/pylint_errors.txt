@@ -243,10 +243,10 @@ sudoku.py:126:17: C0326: Exactly one space required around assignment
                 j=j+1
                  ^ (bad-whitespace)
 sudoku.py:130:23: C0326: Exactly one space required after comma
-        getGridValues(i,j,sudoku)
+        getGridValues(j,k,sudoku)
                        ^ (bad-whitespace)
 sudoku.py:130:25: C0326: Exactly one space required after comma
-        getGridValues(i,j,sudoku)
+        getGridValues(j,k,sudoku)
                          ^ (bad-whitespace)
 sudoku.py:134:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:138:0: C0305: Trailing newlines (trailing-newlines)
@@ -291,10 +291,9 @@ sudoku.py:100:12: C0103: Variable name "y" doesn't conform to snake_case naming 
 sudoku.py:114:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:115:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:131:11: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:130:22: E0602: Undefined variable 'i' (undefined-variable)
+sudoku.py:130:24: W0631: Using possibly undefined loop variable 'k' (undefined-loop-variable)
 sudoku.py:131:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:124:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.24/10 (previous run: -3.67/10, -0.57)
+Your code has been rated at -3.74/10 (previous run: -4.24/10, +0.51)
 

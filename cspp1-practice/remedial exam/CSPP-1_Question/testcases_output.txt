@@ -6,7 +6,7 @@ Your Output:
 Given sudoku is solved
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 7
 7
@@ -28,10 +28,9 @@ Your Output:
 7
 7
 7
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 2
@@ -53,10 +52,9 @@ Your Output:
 7
 8
 9
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 5
 6
@@ -66,10 +64,9 @@ Your Output:
 5
 6
 2
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
@@ -79,10 +76,9 @@ Your Output:
 4
 6
 9
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 3
 7
@@ -104,10 +100,9 @@ Your Output:
 9
 1
 5
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 2
 1
@@ -129,10 +124,9 @@ Your Output:
 9
 6
 3
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 7
 2
@@ -154,10 +148,9 @@ Your Output:
 4
 8
 9
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 1
 5
@@ -179,10 +172,9 @@ Your Output:
 3
 7
 6
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 9: Failed ##########
+########## Testcase 9: Passed ##########
 Expected Output: 
 8
 7
@@ -204,10 +196,9 @@ Your Output:
 9
 6
 4
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 10: Failed ##########
+########## Testcase 10: Passed ##########
 Expected Output: 
 1
 7
@@ -229,10 +220,9 @@ Your Output:
 9
 6
 8
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 6
 1
@@ -254,10 +244,9 @@ Your Output:
 2
 7
 4
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 1
 5
@@ -279,10 +268,9 @@ Your Output:
 4
 6
 8
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 5
 8
@@ -304,10 +292,9 @@ Your Output:
 9
 6
 4
-name 'i' is not defined
 ----------------------------------------
 
-########## Testcase 14: Failed ##########
+########## Testcase 14: Passed ##########
 Expected Output: 
 1
 5
@@ -347,7 +334,6 @@ Your Output:
 9
 6
 4
-name 'i' is not defined
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -418,7 +404,6 @@ Your Output:
 23
 89
 123456789
-name 'i' is not defined
 ----------------------------------------
 
 ########## Testcase 16: Passed ##########
@@ -577,7 +562,6 @@ Your Output:
 235679
 23589
 236789
-name 'i' is not defined
 ----------------------------------------
 
 ########## Testcase 20: Passed ##########
@@ -694,7 +678,6 @@ Your Output:
 2356
 1246
 13456
-name 'i' is not defined
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -817,7 +800,6 @@ Your Output:
 4567
 456789
 4567
-name 'i' is not defined
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -872,7 +854,6 @@ Your Output:
 469
 26
 6
-name 'i' is not defined
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -953,6 +934,5 @@ Your Output:
 8
 1289
 189
-name 'i' is not defined
 ----------------------------------------
 
