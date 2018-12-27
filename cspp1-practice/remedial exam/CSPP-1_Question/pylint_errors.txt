@@ -211,10 +211,10 @@ sudoku.py:103:44: C0326: Exactly one space required after comma
                 column_var=getColumnValues(y,sudoku)
                                             ^ (bad-whitespace)
 sudoku.py:104:38: C0326: Exactly one space required after comma
-                grid = getGridValues(j,k,sudoku)
+                grid = getGridValues(x,y,sudoku)
                                       ^ (bad-whitespace)
 sudoku.py:104:40: C0326: Exactly one space required after comma
-                grid = getGridValues(j,k,sudoku)
+                grid = getGridValues(x,y,sudoku)
                                         ^ (bad-whitespace)
 sudoku.py:105:22: C0326: Exactly one space required around assignment
                 result=row_var+column_var+grid
@@ -289,8 +289,6 @@ sudoku.py:98:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:99:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 sudoku.py:99:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:100:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:104:37: E0602: Undefined variable 'j' (undefined-variable)
-sudoku.py:104:39: E0602: Undefined variable 'k' (undefined-variable)
 sudoku.py:115:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:116:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:132:11: W0703: Catching too general exception Exception (broad-except)
@@ -298,5 +296,5 @@ sudoku.py:132:4: C0103: Variable name "e" doesn't conform to snake_case naming s
 sudoku.py:125:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.85/10 (previous run: -3.74/10, -1.11)
+Your code has been rated at -3.84/10 (previous run: -4.85/10, +1.01)
 
