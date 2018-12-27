@@ -16,11 +16,11 @@ def validateInput(data):
         raise Exception("Given sudoku is solved")
 def validateSudoku(sudoku):
     for x in range(9):
-        var = getRowValues(x,sudoku)
-        if len(var) != len(set(var)):
+        row_var=getRowValues(x,sudoku)
+        if len(set(row_var)) != len(row_var):
             raise Exception("Invalid Sudoku:Duplicate values")
-        columnvar=getColumnValues(x,sudoku)
-        if len(columnvar) != len((columnvar)):
+        column_var=getColumnValues(x,sudoku)
+        if len(set(column_var)) != len(column_var):
             raise Exception("Invalid Sudoku:Duplicate values")
         
 
@@ -46,7 +46,7 @@ def getColumnValues(cell, sudoku):
 This  method should retunn all the values present in the i,j th subgrid
 """
 def getGridValues(i,j,sudoku):
-          
+        
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
@@ -56,30 +56,30 @@ def possibleValues(sudoku):
     for x in range(len(sudoku)):
         for y in range(len(sudoku[0])):
             if sudoku[x][y]=='.':
-                var=getRowValues(x,sudoku)
-                column =getColumnValues(y,sudoku)
-                result=var+columnvar
-                string=''
+                row_var=getRowValues(x,sudoku)
+                column_var=getColumnValues(y,sudoku)
+                result=row_var+column_var
+                elements=''
                 for i in range(1,10):
                     if str(i) not in result:
-                        string=string+str(i)
-                print(string)
+                        elements=elements+str(i)
+                print(elements)
                 
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def main():
-    data= input()
-    data1=list(input_data)
+    data1= input()
+    data=list(input_data)
     j=0
     sudoku=[]
     try:
-        validateInput(data)
+        validateInput(input_data)
         while (j < 81):
             row=[]
             for k in range(9):
-                row.append(data1[j])
+                row.append(data[j])
                 j=j+1
             sudoku.append(row)
         validateSudoku(sudoku)
