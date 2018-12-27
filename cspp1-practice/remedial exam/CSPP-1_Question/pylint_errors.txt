@@ -150,7 +150,6 @@ sudoku.py:37:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:47:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:48:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:48:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:55:35: W0631: Using possibly undefined loop variable 'subcol' (undefined-loop-variable)
 sudoku.py:56:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:65:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
 sudoku.py:74:7: C0121: Comparison to True should be just 'expr' or 'expr is True' (singleton-comparison)
@@ -176,5 +175,5 @@ sudoku.py:171:4: C0103: Variable name "e" doesn't conform to snake_case naming s
 sudoku.py:163:16: W0612: Unused variable 'k' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.73/10 (previous run: 3.73/10, +0.00)
+Your code has been rated at 3.80/10 (previous run: 3.73/10, +0.07)
 
