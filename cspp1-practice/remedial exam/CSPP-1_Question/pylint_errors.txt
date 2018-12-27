@@ -210,46 +210,47 @@ sudoku.py:103:26: C0326: Exactly one space required around assignment
 sudoku.py:103:44: C0326: Exactly one space required after comma
                 column_var=getColumnValues(y,sudoku)
                                             ^ (bad-whitespace)
-sudoku.py:104:22: C0326: Exactly one space required around assignment
-                result=row_var+column_var
+sudoku.py:104:38: C0326: Exactly one space required after comma
+                grid = getGridValues(j,k,sudoku)
+                                      ^ (bad-whitespace)
+sudoku.py:104:40: C0326: Exactly one space required after comma
+                grid = getGridValues(j,k,sudoku)
+                                        ^ (bad-whitespace)
+sudoku.py:105:22: C0326: Exactly one space required around assignment
+                result=row_var+column_var+grid
                       ^ (bad-whitespace)
-sudoku.py:105:24: C0326: Exactly one space required around assignment
+sudoku.py:106:24: C0326: Exactly one space required around assignment
                 elements=''
                         ^ (bad-whitespace)
-sudoku.py:106:32: C0326: Exactly one space required after comma
+sudoku.py:107:32: C0326: Exactly one space required after comma
                 for i in range(1,10):
                                 ^ (bad-whitespace)
-sudoku.py:108:32: C0326: Exactly one space required around assignment
+sudoku.py:109:32: C0326: Exactly one space required around assignment
                         elements=elements+str(i)
                                 ^ (bad-whitespace)
-sudoku.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:116:9: C0326: Exactly one space required before assignment
+sudoku.py:111:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:117:9: C0326: Exactly one space required before assignment
     data1= input()
          ^ (bad-whitespace)
-sudoku.py:117:8: C0326: Exactly one space required around assignment
+sudoku.py:118:8: C0326: Exactly one space required around assignment
     data=list(data1)
         ^ (bad-whitespace)
-sudoku.py:118:5: C0326: Exactly one space required around assignment
+sudoku.py:119:5: C0326: Exactly one space required around assignment
     j=0
      ^ (bad-whitespace)
-sudoku.py:119:10: C0326: Exactly one space required around assignment
+sudoku.py:120:10: C0326: Exactly one space required around assignment
     sudoku=[]
           ^ (bad-whitespace)
-sudoku.py:122:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
-sudoku.py:123:15: C0326: Exactly one space required around assignment
+sudoku.py:123:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+sudoku.py:124:15: C0326: Exactly one space required around assignment
             row=[]
                ^ (bad-whitespace)
-sudoku.py:126:17: C0326: Exactly one space required around assignment
+sudoku.py:127:17: C0326: Exactly one space required around assignment
                 j=j+1
                  ^ (bad-whitespace)
-sudoku.py:130:23: C0326: Exactly one space required after comma
-        getGridValues(j,k,sudoku)
-                       ^ (bad-whitespace)
-sudoku.py:130:25: C0326: Exactly one space required after comma
-        getGridValues(j,k,sudoku)
-                         ^ (bad-whitespace)
-sudoku.py:134:0: C0303: Trailing whitespace (trailing-whitespace)
-sudoku.py:138:0: C0305: Trailing newlines (trailing-newlines)
+sudoku.py:131:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:135:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:139:0: C0305: Trailing newlines (trailing-newlines)
 sudoku.py:12:0: C0103: Function name "validateInput" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:12:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:17:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
@@ -288,12 +289,14 @@ sudoku.py:98:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:99:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 sudoku.py:99:8: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:100:12: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:114:-1: W0105: String statement has no effect (pointless-string-statement)
-sudoku.py:115:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:131:11: W0703: Catching too general exception Exception (broad-except)
-sudoku.py:130:24: W0631: Using possibly undefined loop variable 'k' (undefined-loop-variable)
-sudoku.py:131:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:104:37: E0602: Undefined variable 'j' (undefined-variable)
+sudoku.py:104:39: E0602: Undefined variable 'k' (undefined-variable)
+sudoku.py:115:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:116:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:132:11: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:132:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:125:16: W0612: Unused variable 'k' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.74/10 (previous run: -4.24/10, +0.51)
+Your code has been rated at -4.85/10 (previous run: -3.74/10, -1.11)
 

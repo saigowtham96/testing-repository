@@ -101,7 +101,8 @@ def possibleValues(sudoku):
             if sudoku[x][y]=='.':
                 row_var=getRowValues(x,sudoku)
                 column_var=getColumnValues(y,sudoku)
-                result=row_var+column_var
+                grid = getGridValues(j,k,sudoku)
+                result=row_var+column_var+grid
                 elements=''
                 for i in range(1,10):
                     if str(i) not in result:
@@ -127,7 +128,7 @@ def main():
             sudoku.append(row)
         validateSudoku(sudoku)
         possibleValues(sudoku)
-        getGridValues(j,k,sudoku)
+        
     except Exception as e:
         print(e)
     # print(sudoku)
