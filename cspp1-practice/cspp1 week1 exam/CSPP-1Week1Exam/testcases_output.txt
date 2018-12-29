@@ -70,11 +70,11 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 Your Output: 
 <_io.TextIOWrapper name='file.html' mode='r' encoding='cp1252'>
 Traceback (most recent call last):
-  File "week1exam.py", line 27, in <module>
+  File "week1exam.py", line 28, in <module>
     main()
-  File "week1exam.py", line 24, in main
+  File "week1exam.py", line 25, in main
     getimage(word)
-  File "week1exam.py", line 15, in getimage
+  File "week1exam.py", line 17, in getimage
     print(result)
 UnboundLocalError: local variable 'result' referenced before assignment
 ----------------------------------------
@@ -106,11 +106,11 @@ transparent
 Your Output: 
 <_io.TextIOWrapper name='file.html' mode='r' encoding='cp1252'>
 Traceback (most recent call last):
-  File "week1exam.py", line 27, in <module>
+  File "week1exam.py", line 28, in <module>
     main()
-  File "week1exam.py", line 24, in main
+  File "week1exam.py", line 25, in main
     getimage(word)
-  File "week1exam.py", line 15, in getimage
+  File "week1exam.py", line 17, in getimage
     print(result)
 UnboundLocalError: local variable 'result' referenced before assignment
 ----------------------------------------
@@ -185,11 +185,11 @@ Events
 Your Output: 
 <_io.TextIOWrapper name='file.html' mode='r' encoding='cp1252'>
 Traceback (most recent call last):
-  File "week1exam.py", line 27, in <module>
+  File "week1exam.py", line 28, in <module>
     main()
-  File "week1exam.py", line 24, in main
+  File "week1exam.py", line 25, in main
     getimage(word)
-  File "week1exam.py", line 15, in getimage
+  File "week1exam.py", line 17, in getimage
     print(result)
 UnboundLocalError: local variable 'result' referenced before assignment
 ----------------------------------------
