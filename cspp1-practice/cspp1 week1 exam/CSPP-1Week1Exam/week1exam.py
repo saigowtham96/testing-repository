@@ -4,6 +4,7 @@ def getimage(word):
     lasttag = "\""
     list1 = []
     count = 0
+    result = 0
     for i in line:
         list1.append(i)
         for temp in list1:
@@ -12,7 +13,6 @@ def getimage(word):
                 temp = temp[start+len(firsttag):]
                 end = temp.index(lasttag)
                 result = temp[:end]
-        
         count = count+1
         print(result)
     print(count)
