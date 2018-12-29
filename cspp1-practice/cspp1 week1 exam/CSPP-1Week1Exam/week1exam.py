@@ -12,8 +12,8 @@ def getimage(word):
                 temp = temp[start+len(firsttag):]
                 end = temp.index(lasttag)
                 result = temp[:end]
-                print(result)
-                count = count+1
+        print(result)
+        count = count+1
     print(count)
         
 def main():

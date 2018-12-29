@@ -8,6 +8,6 @@ week1exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week1exam.py:1:0: C0111: Missing function docstring (missing-docstring)
 week1exam.py:19:0: C0111: Missing function docstring (missing-docstring)
 
---------------------------------------------------------------------
-Your code has been rated at 7.50/10 (previous run: -8.86/10, +16.36)
+------------------------------------------------------------------
+Your code has been rated at 7.50/10 (previous run: 7.50/10, +0.00)
 
