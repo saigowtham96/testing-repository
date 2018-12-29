@@ -1,6 +1,6 @@
 def getimage(word):
-	line = word.split("<img")
-	firsttag = "src=\""
+	line = word.split("<img src")
+	firsttag = "\""
 	lasttag = "\""
 	list1 = []
 	count = 0
@@ -15,7 +15,7 @@ def getimage(word):
 			result = temp[:end]
 			print(result)
 			count = count+1
-			print(count)
+	print(count)
 
 
 def getdisplay(word):
@@ -47,7 +47,7 @@ def main():
 	for word in page:
 		#print(word)
 		getimage(word)
-		#getdisplay(word)
+		getdisplay(word)
 
 if __name__ == '__main__':
     main()

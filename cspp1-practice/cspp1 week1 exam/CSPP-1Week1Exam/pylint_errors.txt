@@ -43,6 +43,7 @@ week1exam.py:45:33: C0326: No space allowed around keyword argument assignment
 week1exam.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week1exam.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week1exam.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 week1exam.py:53:0: C0304: Final newline missing (missing-final-newline)
 week1exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week1exam.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -58,6 +59,6 @@ week1exam.py:21:15: W0613: Unused argument 'word' (unused-argument)
 week1exam.py:23:1: W0612: Unused variable 'endtag' (unused-variable)
 week1exam.py:44:0: C0111: Missing function docstring (missing-docstring)
 
-------------------------------------
-Your code has been rated at -9.07/10
+--------------------------------------------------------------------
+Your code has been rated at -8.86/10 (previous run: -9.07/10, +0.21)
 
