@@ -1,0 +1,63 @@
+************* Module week1exam
+week1exam.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:32:9: C0326: Exactly one space required after assignment
+			temp1 =temp1[start+len(starttag)]
+         ^ (bad-whitespace)
+week1exam.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:45:33: C0326: No space allowed around keyword argument assignment
+	page = open("file.html", errors = "ignore")
+                                 ^ (bad-whitespace)
+week1exam.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+week1exam.py:53:0: C0304: Final newline missing (missing-final-newline)
+week1exam.py:1:0: C0111: Missing module docstring (missing-docstring)
+week1exam.py:1:0: C0111: Missing function docstring (missing-docstring)
+week1exam.py:21:0: C0111: Missing function docstring (missing-docstring)
+week1exam.py:27:10: E0602: Undefined variable 'lines' (undefined-variable)
+week1exam.py:30:17: E0602: Undefined variable 'temp' (undefined-variable)
+week1exam.py:33:9: E0602: Undefined variable 'temp' (undefined-variable)
+week1exam.py:33:20: E0602: Undefined variable 'lasttag' (undefined-variable)
+week1exam.py:34:13: E0602: Undefined variable 'temp' (undefined-variable)
+week1exam.py:37:4: E1101: Instance of 'list' has no 'add' member (no-member)
+week1exam.py:37:14: E0602: Undefined variable 'resut1' (undefined-variable)
+week1exam.py:21:15: W0613: Unused argument 'word' (unused-argument)
+week1exam.py:23:1: W0612: Unused variable 'endtag' (unused-variable)
+week1exam.py:44:0: C0111: Missing function docstring (missing-docstring)
+
+------------------------------------
+Your code has been rated at -9.07/10
+
