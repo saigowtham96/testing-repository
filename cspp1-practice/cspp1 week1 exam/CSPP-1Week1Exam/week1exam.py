@@ -40,8 +40,10 @@ def getdisplay(page):
 def main():
     page = open("file.html", errors = "ignore").read()
     # print(page)
-    getimage(page)
-    getdisplay(page)
+    if page == "image":
+        getimage(page)
+    elif page == "background":
+        getdisplay(page)
 
 if __name__ == '__main__':
     main()
