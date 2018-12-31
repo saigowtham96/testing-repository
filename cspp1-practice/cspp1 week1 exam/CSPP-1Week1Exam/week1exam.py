@@ -18,7 +18,7 @@ def getimage(page):
 
         
 def main():
-    page = open("file.html", errors = "ignore")
+    page = open("file.html", errors = "ignore").read()
     # print(page)
     getimage(page)
 
