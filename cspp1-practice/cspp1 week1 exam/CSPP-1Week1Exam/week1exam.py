@@ -19,11 +19,8 @@ def getimage(word):
         
 def main():
     page = open("file.html", errors = "ignore")
-    print(page)
-    for word in page:
-        #print(word)
-        getimage(page)
-        # getdisplay(word)
+    # print(page)
+    getimage(page)
 
 if __name__ == '__main__':
     main()
