@@ -12,5 +12,5 @@ week1exam.py:31:16: W0612: Unused variable 'last' (unused-variable)
 week1exam.py:40:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.05/10 (previous run: 6.98/10, +0.07)
+Your code has been rated at 7.05/10 (previous run: 7.05/10, +0.00)
 
