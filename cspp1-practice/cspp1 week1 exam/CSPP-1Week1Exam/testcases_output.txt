@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 ./webpage5_files/thewashingtonpost-white-2x.png
 https://www.washingtonpost.com/pb/resources/img/washingtonpost_black_32.png
@@ -134,6 +134,14 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
 65
+Traceback (most recent call last):
+  File "week1exam.py", line 47, in <module>
+    main()
+  File "week1exam.py", line 44, in main
+    getdisplay(page)
+  File "week1exam.py", line 25, in getdisplay
+    for item in line:
+NameError: name 'line' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -227,6 +235,14 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
 65
+Traceback (most recent call last):
+  File "week1exam.py", line 47, in <module>
+    main()
+  File "week1exam.py", line 44, in main
+    getdisplay(page)
+  File "week1exam.py", line 25, in getdisplay
+    for item in line:
+NameError: name 'line' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -363,5 +379,13 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
 65
+Traceback (most recent call last):
+  File "week1exam.py", line 47, in <module>
+    main()
+  File "week1exam.py", line 44, in main
+    getdisplay(page)
+  File "week1exam.py", line 25, in getdisplay
+    for item in line:
+NameError: name 'line' is not defined
 ----------------------------------------
 

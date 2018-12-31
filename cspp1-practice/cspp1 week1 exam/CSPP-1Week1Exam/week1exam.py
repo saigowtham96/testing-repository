@@ -16,12 +16,32 @@ def getimage(page):
         count = count+1
         print(result)
     print(count)
+def getdisplay(page):
+    lines = page.split("{")
+    startingtag = "background-color\""
+    endtag = "\""
+    list2 = []
+    count = 0
+    for item in line:
+        list2.append(item)
+        for source in list2:
+            if startingtag in source:
+                first = source.index(startingtag)
+                source = source[first+len(startingtag):]
+                last = source.index(endtag)
+                output = source[:end]
+        count = count+1
+        print(output)
+    print(output)
+
+
 
         
 def main():
     page = open("file.html", errors = "ignore").read()
     # print(page)
     getimage(page)
+    getdisplay(page)
 
 if __name__ == '__main__':
     main()
