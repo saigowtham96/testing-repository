@@ -74,7 +74,7 @@ Traceback (most recent call last):
   File "week1exam.py", line 23, in main
     getimage(page)
   File "week1exam.py", line 2, in getimage
-    line = word.split("<img")
+    line = page.split("<img")
 AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 
@@ -109,7 +109,7 @@ Traceback (most recent call last):
   File "week1exam.py", line 23, in main
     getimage(page)
   File "week1exam.py", line 2, in getimage
-    line = word.split("<img")
+    line = page.split("<img")
 AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 
@@ -187,7 +187,7 @@ Traceback (most recent call last):
   File "week1exam.py", line 23, in main
     getimage(page)
   File "week1exam.py", line 2, in getimage
-    line = word.split("<img")
+    line = page.split("<img")
 AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 

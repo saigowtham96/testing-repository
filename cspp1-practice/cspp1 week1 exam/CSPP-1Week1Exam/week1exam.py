@@ -1,5 +1,5 @@
-def getimage(word):
-    line = word.split("<img")
+def getimage(page):
+    line = page.split("<img")
     firsttag = "src=\""
     lasttag = "\""
     list1 = []
