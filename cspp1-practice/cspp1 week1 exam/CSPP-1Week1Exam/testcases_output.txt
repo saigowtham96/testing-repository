@@ -139,9 +139,9 @@ Traceback (most recent call last):
     main()
   File "week1exam.py", line 44, in main
     getdisplay(page)
-  File "week1exam.py", line 25, in getdisplay
-    for item in line:
-NameError: name 'line' is not defined
+  File "week1exam.py", line 34, in getdisplay
+    print(output)
+UnboundLocalError: local variable 'output' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -240,9 +240,9 @@ Traceback (most recent call last):
     main()
   File "week1exam.py", line 44, in main
     getdisplay(page)
-  File "week1exam.py", line 25, in getdisplay
-    for item in line:
-NameError: name 'line' is not defined
+  File "week1exam.py", line 34, in getdisplay
+    print(output)
+UnboundLocalError: local variable 'output' referenced before assignment
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -384,8 +384,8 @@ Traceback (most recent call last):
     main()
   File "week1exam.py", line 44, in main
     getdisplay(page)
-  File "week1exam.py", line 25, in getdisplay
-    for item in line:
-NameError: name 'line' is not defined
+  File "week1exam.py", line 34, in getdisplay
+    print(output)
+UnboundLocalError: local variable 'output' referenced before assignment
 ----------------------------------------
 

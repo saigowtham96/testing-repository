@@ -7,12 +7,10 @@ week1exam.py:47:0: C0304: Final newline missing (missing-final-newline)
 week1exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week1exam.py:1:0: C0111: Missing function docstring (missing-docstring)
 week1exam.py:19:0: C0111: Missing function docstring (missing-docstring)
-week1exam.py:25:16: E0602: Undefined variable 'line' (undefined-variable)
 week1exam.py:32:33: E0602: Undefined variable 'end' (undefined-variable)
-week1exam.py:20:4: W0612: Unused variable 'lines' (unused-variable)
 week1exam.py:31:16: W0612: Unused variable 'last' (unused-variable)
 week1exam.py:40:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.37/10 (previous run: 7.39/10, -2.03)
+Your code has been rated at 6.83/10 (previous run: 5.37/10, +1.46)
 

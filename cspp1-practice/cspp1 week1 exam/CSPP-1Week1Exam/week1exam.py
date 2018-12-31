@@ -22,7 +22,7 @@ def getdisplay(page):
     endtag = "\""
     list2 = []
     count = 0
-    for item in line:
+    for item in lines:
         list2.append(item)
         for source in list2:
             if startingtag in source:
