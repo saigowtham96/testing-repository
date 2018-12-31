@@ -1,5 +1,6 @@
 def getimage(page):
     line = page.split("<img")
+    line = line[1:]
     firsttag = "src=\""
     lasttag = "\""
     list1 = []

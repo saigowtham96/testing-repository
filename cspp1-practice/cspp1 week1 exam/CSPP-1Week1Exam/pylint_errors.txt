@@ -1,13 +1,13 @@
 ************* Module week1exam
-week1exam.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
-week1exam.py:21:36: C0326: No space allowed around keyword argument assignment
+week1exam.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+week1exam.py:22:36: C0326: No space allowed around keyword argument assignment
     page = open("file.html", errors = "ignore").read()
                                     ^ (bad-whitespace)
-week1exam.py:26:0: C0304: Final newline missing (missing-final-newline)
+week1exam.py:27:0: C0304: Final newline missing (missing-final-newline)
 week1exam.py:1:0: C0111: Missing module docstring (missing-docstring)
 week1exam.py:1:0: C0111: Missing function docstring (missing-docstring)
-week1exam.py:20:0: C0111: Missing function docstring (missing-docstring)
+week1exam.py:21:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.27/10 (previous run: 7.27/10, +0.00)
+Your code has been rated at 7.39/10 (previous run: 7.27/10, +0.12)
 

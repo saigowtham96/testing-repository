@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 ./webpage5_files/thewashingtonpost-white-2x.png
 https://www.washingtonpost.com/pb/resources/img/washingtonpost_black_32.png
@@ -68,7 +68,6 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 65
 
 Your Output: 
-javascript:false
 ./webpage5_files/thewashingtonpost-white-2x.png
 https://www.washingtonpost.com/pb/resources/img/washingtonpost_black_32.png
 ./webpage5_files/twp-masthead-415x57.svg
@@ -134,7 +133,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs
 https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
-66
+65
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -162,7 +161,6 @@ transparent
 20
 
 Your Output: 
-javascript:false
 ./webpage5_files/thewashingtonpost-white-2x.png
 https://www.washingtonpost.com/pb/resources/img/washingtonpost_black_32.png
 ./webpage5_files/twp-masthead-415x57.svg
@@ -228,7 +226,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs
 https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
-66
+65
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -299,7 +297,6 @@ Events
 63
 
 Your Output: 
-javascript:false
 ./webpage5_files/thewashingtonpost-white-2x.png
 https://www.washingtonpost.com/pb/resources/img/washingtonpost_black_32.png
 ./webpage5_files/twp-masthead-415x57.svg
@@ -365,6 +362,6 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAAAXNSR0IArs
 https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 //me.effectivemeasure.net/em_image
 ./webpage5_files/pixel
-66
+65
 ----------------------------------------
 
