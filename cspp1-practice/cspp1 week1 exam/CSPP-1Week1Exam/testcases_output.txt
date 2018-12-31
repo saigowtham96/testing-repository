@@ -70,13 +70,13 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 Your Output: 
 <_io.TextIOWrapper name='file.html' mode='r' encoding='cp1252'>
 Traceback (most recent call last):
-  File "week1exam.py", line 50, in <module>
+  File "week1exam.py", line 29, in <module>
     main()
-  File "week1exam.py", line 46, in main
-    getimage(word)
-  File "week1exam.py", line 16, in getimage
-    print(result)
-UnboundLocalError: local variable 'result' referenced before assignment
+  File "week1exam.py", line 25, in main
+    getimage(page)
+  File "week1exam.py", line 2, in getimage
+    line = word.split("<img")
+AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -106,13 +106,13 @@ transparent
 Your Output: 
 <_io.TextIOWrapper name='file.html' mode='r' encoding='cp1252'>
 Traceback (most recent call last):
-  File "week1exam.py", line 50, in <module>
+  File "week1exam.py", line 29, in <module>
     main()
-  File "week1exam.py", line 46, in main
-    getimage(word)
-  File "week1exam.py", line 16, in getimage
-    print(result)
-UnboundLocalError: local variable 'result' referenced before assignment
+  File "week1exam.py", line 25, in main
+    getimage(page)
+  File "week1exam.py", line 2, in getimage
+    line = word.split("<img")
+AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -185,12 +185,12 @@ Events
 Your Output: 
 <_io.TextIOWrapper name='file.html' mode='r' encoding='cp1252'>
 Traceback (most recent call last):
-  File "week1exam.py", line 50, in <module>
+  File "week1exam.py", line 29, in <module>
     main()
-  File "week1exam.py", line 46, in main
-    getimage(word)
-  File "week1exam.py", line 16, in getimage
-    print(result)
-UnboundLocalError: local variable 'result' referenced before assignment
+  File "week1exam.py", line 25, in main
+    getimage(page)
+  File "week1exam.py", line 2, in getimage
+    line = word.split("<img")
+AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 
